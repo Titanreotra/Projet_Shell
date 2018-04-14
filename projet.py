@@ -119,12 +119,25 @@ if __name__ =='__main__':
 	for i in range(len(pl)):
 		p = pl[i]
 		print(p)
+
+		if i == 0:
+			executerCommandeSimple(p, 0, tubesEnchainement[i][1])
+		elif i == len(pl)-1:
+			executerCommandeSimple(p, tubesEnchainement[i-1][0], 1)
+		else:
+			executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1])
+
 		#print(filtrerRedirectionsEntree(p))
 		#print(filtrerRedirectionsSortie(p))
 		#print(filtrerRedirectionsErreur(p))
 
 
 		executerCommandeSimple(p)
+
+
+	for i in range(len(pl)):
+		os.close(tubesEnchainement[i][0])
+		os.close(tubesEnchainement[i][1])
 
 
 
