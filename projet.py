@@ -22,6 +22,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1):
 			#print(re_fd)
 			os.dup2(re_re_fd, 0)
 		elif entreeProcessus != 0:
+			os.close(sortieProcessus)
 			os.dup2(entreeProcessus, 0)
 
 
@@ -74,6 +75,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1):
 
 			os.dup2(re_wr_fd,1)
 		elif sortieProcessus != 1:
+			os.close(entreeProcessus)
 			os.dup2(sortieProcessus,1)
 
 
@@ -111,7 +113,7 @@ def filtrerRedirectionsErreur(processus):
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("sh ficTest2.sh > ghi.txt 2> cerise.txt")
+	pl=ssp.get_parser().parse("sh ficTest2.sh  2> cerise.txt | wc -l")
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		tubesEnchainement.append(os.pipe())
