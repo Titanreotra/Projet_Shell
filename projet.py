@@ -23,6 +23,16 @@ def executerCommandeSimple(processus):
 			os.dup2(re_re_fd, 0)
 
 
+		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
+		re_Er_fd=None
+		if redirErreur: 
+			if redirErreur.isAppend():
+				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
+			else:
+				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT)
+
+			os.dup2(re_Er_fd,2)	
+
 		os.dup2(wfd,1)# utiliser wfd au lieu de la sortie standard
 		argCommande=[commande]+ argCommande # pour tt les fonction exec le 1er argCommande doit etre la commande lui meme
 
@@ -31,9 +41,15 @@ def executerCommandeSimple(processus):
 		except OSError as e:
 			if e.errno==2: # si il y a une erreur 
 				try:
+					log("python3 va executer")
 					os.execv("/usr/bin/"+commande,argCommande) # esaye l'autre commande 
 				except OSError as e:
-					os.write(2,bytearray(e.strerror)) # affiche dans la sortie d'erreur standard
+					if e.errno==2:
+						try:
+							os.execv("./"+commande, argCommande)
+						except OSError as e:
+						
+							os.write(2,byteaargCommanderray(e.strerror,"utf-8")) # affiche dans la sortie d'erreur standard
 				
 			print("coucou")
 			
@@ -57,17 +73,6 @@ def executerCommandeSimple(processus):
 			os.dup2(re_wr_fd,1)
 
 
-		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le père
-		print(redirErreur)
-		re_Er_fd=None
-		if redirErreur: 
-			if redirErreur.isAppend():
-				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
-			else:
-				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT)
-
-			os.dup2(re_Er_fd,2)	
-
 		while True:
 			morceau=os.read(rfd,3)
 			if not morceau:
@@ -75,8 +80,13 @@ def executerCommandeSimple(processus):
 			os.write(1, morceau)# ecrit dans la sortie standard 
 
 		os.close(rfd) # fermeture du cote lecture du pipe
-		# if re_wr_fd:
-		# 	os
+		if re_wr_fd:
+		 	os.close(re_wr_fd)
+
+def log(msg): # pour voir les erreur sur le code
+	log_fd=os.open("log.txt", os.O_CREAT | os.O_WRONLY )
+	os.write(log_fd,bytearray(msg,"utf-8"))
+	os.close(log_fd)
 
 
 
@@ -97,7 +107,8 @@ def filtrerRedirectionsErreur(processus):
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("ps -aux > sortie.txt 2> erreur.txt   | wc -l < shell.py >> shellLongueur.txt | python3 fictest.py 2> cerise.txt")
+	pl=ssp.get_parser().parse("ps -aux > sortie.txt 2> erreur.txt   | wc -l < shell.py >> shellLongueur.txt | python fictest1.py 2> cerise.txt")
+	# pl = ssp.get_parser().parse("sh ficTest2.sh > ghi.txt 2> cerise.txt")
 	for p in pl:
 		print(p)
 		#print(filtrerRedirectionsEntree(p))
