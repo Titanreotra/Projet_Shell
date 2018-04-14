@@ -3,7 +3,7 @@ import lexer as ssp
 
 #  **** fonction pour excuter*****
 
-def executerCommandeSimple(processus, entreeProcessus, sortieProcessus):
+def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1):
 
 	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
 	pid=os.fork() # 
@@ -111,9 +111,13 @@ def filtrerRedirectionsErreur(processus):
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("ps -aux > sortie.txt 2> erreur.txt   | wc -l < shell.py >> shellLongueur.txt | python fictest1.py 2> cerise.txt")
-	# pl = ssp.get_parser().parse("sh ficTest2.sh > ghi.txt 2> cerise.txt")
-	for p in pl:
+	pl=ssp.get_parser().parse("sh ficTest2.sh > ghi.txt 2> cerise.txt")
+	tubesEnchainement = []
+	for i in range(len(pl)):
+		tubesEnchainement.append(os.pipe())
+
+	for i in range(len(pl)):
+		p = pl[i]
 		print(p)
 		#print(filtrerRedirectionsEntree(p))
 		#print(filtrerRedirectionsSortie(p))
