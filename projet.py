@@ -1,102 +1,56 @@
 import os,sys,time
+import lexer as ssp 
 
-def executerCommandeSimple(nomPipe, commande, argCommande):
-	pid=os.fork()
-	if(pid==0):
+def executerCommandeSimple(commande, argCommande):
+
+	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
+	pid=os.fork() # 
+	if(pid==0): # le fils s'ocuupe de l'excution de la commande
+		os.close(rfd)# fermeture de cote lecture du pipe
 		print("je vais executer " + commande)
 		print("je suis le fils %d" %(os.getpid()))
-		fd=os.open(nomPipe, os.O_WRONLY|os.O_CREAT)
-		os.dup2(fd,1)
-		try:
+		os.dup2(wfd,1)# utiliser wfd au lieu de la sortie standard
+		argCommande=[commande]+ argCommande # pour tt les fonction exec le 1er argCommande doit etre la commande lui meme
+
+		try: # essaye cette commande 
 			os.execv("/bin/"+commande,argCommande)
-		except OSError,e:
+		except OSError as e:
+			if e.errno==2: # si il y a une erreur 
+				try:
+					os.execv("/usr/bin/"+commande,argCommande) # esaye l'autre commande 
+				except OSError as e:
+					os.write(2,bytearray(e.strerror)) # affiche dans la sortie d'erreur standard
+				
 			print("coucou")
-			os.write(1,"Daniel")
-			os.write(1,e.filename + " manque")
-	else:	
-		#pass
+			
+	else:
+
+		os.close(wfd) # fermeture du cote  ecriture du pipe
 		print("j attends le %d\n" %(pid))
 		#time.sleep(1)
 		(p,es) = os.waitpid(pid,0)
 		#print("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
-
-def copierVersPipe(nomPipe,nomFichier):
-	print("on va copier vers pipe")
-	fdf=os.open(nomFichier, os.O_RDONLY)
-	fdp=os.open(nomPipe,os.O_RDWR|os.O_CREAT|os.O_TRUNC)
-	print("pipe ouvert pour copier")
-	while(True):
-		morceau=os.read(fdf,65)
-		morceau = morceau.strip()
-		if morceau=="":
-			break	
-		#print("morceau lu " + morceau)
-		os.write(fdp,morceau)
-	os.close(fdf)
-	os.close(fdp)
-	print("fini copier vers pipe")
-
-def copierVersFichier(nomPipe, nomFichier):
-	fdp=os.open(nomPipe,os.O_RDONLY | os.O_NONBLOCK)
-	fdf=os.open(nomFichier,os.O_WRONLY|os.O_TRUNC)
-	while(True):
-		morceau= "x"
-		try :
-			morceau=os.read(fdp,13)
-		except OSError, e:
-			print(e.strerror)
-		if not morceau:
-			break
-		os.write(fdf,morceau)
-		
-	os.close(fdf)
-	os.close(fdp)
-	print("fini copier vers fichier")
-
-	
-	
+		res=""
+		while True:
+			morceau=os.read(rfd,3)
+			if not morceau:
+				break
+			os.write(1, morceau)# ecrit dans la sortie standard 
+		os.close(rfd) # fermeture du cote lecture du pipe
 
 
-def executerCommandeRedi(nomPipe, commande, argCommande):
-	commandeCouper=commande.split(">")
-	commandeSimple=commandeCouper[0].strip()
-	commandeSimpleArgs = commandeSimple.split(' ')
-	executerCommandeSimple(nomPipe, commandeSimpleArgs[0], commandeSimpleArgs)
-	for i in range(1,len(commandeCouper)):
-		copierVersFichier(nomPipe,commandeCouper[i].strip())
-		os.unlink(nomPipe)
-		os.mkfifo(nomPipe)
-		copierVersPipe(nomPipe,commandeCouper[i].strip())	
 
-def afficherResultatFinal(nomPipe):
-	fdp=os.open(nomPipe,os.O_RDONLY| os.O_NONBLOCK)
-	resultat=""
-	while(True):
-		morceau=os.read(fdp,33)
-		if not morceau:
-			break 
-		resultat+=morceau
-		# si le morceau est vide : on sort de la boucle car il y a plus rien a lire
- 		
-	os.close(fdp)
-	print("x%sx\n" %(resultat))
-	
+
 
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	try:
-		#pass
-		os.mkfifo(nomPipe)
-	except OSError, e:
-		if e.errno == 17:
-			print(e.strerror)
-	commande="ps"
-	argCommande=["-e","-a","-x"]
-	executerCommandeRedi(nomPipe,"more shell.py > def.txt",argCommande)
-	print("je vais affichier res final")
-	afficherResultatFinal(nomPipe)
-	#os.unlink(nomPipe)
+	pl=ssp.get_parser().parse("ps -aux | wc -l shell.py")
+	for p in pl:
+		print(p)
+		commande=p._cmd.getCommand()
+		argCommande=p._cmd.getArgs()
+		executerCommandeSimple(commande, argCommande)
 
 
 
