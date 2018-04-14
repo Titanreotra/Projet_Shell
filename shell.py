@@ -92,4 +92,4 @@ def afficherResultatFinal(nomPipe):
  		
 	os.close(fdp)
 	print("x%sx\n" %(resultat))
-	
+	#Bonjour tout le monde 

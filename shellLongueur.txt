@@ -1,0 +1,32 @@
+95
+95
+95
+Proc(cmd=python3 [fictest.py], redirs=[ERRREDIR(cerise.txt)])
+j attends le 21509
+
+je vais executer python3
+je suis le fils 21509
+None
+95
+Proc(cmd=python3 [fictest.py], redirs=[ERRREDIR(cerise.txt)])
+j attends le 21547
+
+je vais executer python3
+je suis le fils 21547
+ERRREDIR(cerise.txt)
+None
+95
+Proc(cmd=python3 [fictest.py], redirs=[ERRREDIR(cerise.txt)])
+j attends le 21582
+
+je vais executer python3
+je suis le fils 21582
+ERRREDIR(cerise.txt)
+None
+95
+Proc(cmd=python3 [fictest.py], redirs=[ERRREDIR(cerise.txt)])
+j attends le 21621
+
+je vais executer python3
+je suis le fils 21621
+ERRREDIR(cerise.txt)
