@@ -3,7 +3,7 @@ import lexer as ssp
 
 #  **** fonction pour excuter*****
 
-def executerCommandeSimple(processus):
+def executerCommandeSimple(processus, entreeProcessus, sortieProcessus):
 
 	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
 	pid=os.fork() # 
@@ -21,6 +21,8 @@ def executerCommandeSimple(processus):
 			re_re_fd=os.open(redirEntree._filespec, os.O_RDONLY)
 			#print(re_fd)
 			os.dup2(re_re_fd, 0)
+		elif entreeProcessus != 0:
+			os.dup2(entreeProcessus, 0)
 
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
@@ -71,6 +73,8 @@ def executerCommandeSimple(processus):
 				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT)
 
 			os.dup2(re_wr_fd,1)
+		elif sortieProcessus != 1:
+			os.dup2(sortieProcessus,1)
 
 
 		while True:
