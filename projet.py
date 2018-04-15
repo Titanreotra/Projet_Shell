@@ -3,6 +3,9 @@ import lexer as ssp
 
 #  **** fonction pour excuter*****
 
+rfd = None
+wfd = None
+
 def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sortiePrec = None):
 	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
 
@@ -15,15 +18,16 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		if redirEntree:
 			#print(redirEntree._filespec)
 			re_re_fd=os.open(redirEntree._filespec, os.O_RDONLY)
-			os.dup2(re_re_fd, 0)
+			os.dup2(re_re_fd, 0, False)
+
 			# os.close(re_re_fd)
-		elif entreeProcessus != 0 and sortiePrec:
+		elif entreeProcessus != 0 :
 			log("je vais fermer sortieProcessus")
 			# os.close(sortiePrec)
-			afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
-			os.dup2(entreeProcessus, 0)
-			os.close(entreeProcessus)
-			os.close(sortieProcessus)
+			# afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
+			# os.dup2(entreeProcessus, 0)
+			# os.close(entreeProcessus)
+			# os.close(sortieProcessus)
 
 		re_wr_fd=None
 		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le pere
@@ -37,7 +41,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
 
 
-			os.dup2(re_wr_fd,1)
+			os.dup2(re_wr_fd,1, False)
 
 			# os.close(re_wr_fd)
 		else: 
@@ -47,11 +51,10 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 		
 		if sortieProcessus != 1:
-			os.close(entreeProcessus)
 
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
-			os.close(1)
-			os.dup2(sortieProcessus,1)
+			os.dup2(sortieProcessus,1, False)
+			os.close(entreeProcessus)
 			os.close(sortieProcessus)
 			# os.close(entreeProcessus)
 
@@ -65,8 +68,9 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			# os.write(2, b'rediriger erreur')
 			os.dup2(re_Er_fd,2)	
 
-		# if sortiePrec:
-		# 	afficherErreur('mmimimi ' +str(sortiePrec))
+		if sortiePrec:
+			os.close(sortiePrec)
+			# afficherErreur('mmimimi ' +str(sortiePrec))
 
 		
 		#os.dup2(wfd,1)# utiliser wfd au lieu de la sortie standard
@@ -92,7 +96,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 				
 			
 	else: # pere 
-		os.close(wfd) # fermeture du cote  ecriture du pipe
+		# os.close(wfd) # fermeture du cote  ecriture du pipe
 		#afficherErreur("j attends le %d %s\n " %(pid, processus._cmd.getCommand()))
 		#time.sleep(1)
 		(p,es) = os.waitpid(pid,0)
@@ -123,12 +127,14 @@ def filtrerRedirectionsErreur(processus):
 
 
 if __name__ =='__main__':
-	nomPipe="/tmp/pomme"
 	pl=ssp.get_parser().parse("sh imp.sh | wc -c  ")
 	tubesEnchainement = []
 	for i in range(len(pl)):
-		tubesEnchainement.append(os.pipe())
+		#tubesEnchainement.append(os.pipe())
 
+		pass
+
+	rfd, wfd = os.pipe()
 
 
 	for i in range(len(pl)):
@@ -139,11 +145,21 @@ if __name__ =='__main__':
 			executerCommandeSimple(p, 0, 1)
 
 		elif i == 0:
-			executerCommandeSimple(p, 0, tubesEnchainement[i][1])
+			executerCommandeSimple(p, 0, wfd)
+			#os.close(tubesEnchainement[i][1])
 		elif i == len(pl)-1:
-			executerCommandeSimple(p, tubesEnchainement[i-1][0], 1, tubesEnchainement[i-1][1])
+			executerCommandeSimple(p, rfd, wfd, None)
+			# os.close(tubesEnchainement[i][1])
+			#os.close(tubesEnchainement[i-1][0])
 		else:
-			executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
+			# executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
+			executerCommandeSimple(p, rfd, wfd)
+			# os.close(tubesEnchainement[i-1][0])
+			# os.close(tubesEnchainement[i-1][1])
+
+	os.close(rfd)
+	os.close(wfd)
+
 
 
 	
