@@ -25,8 +25,8 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		elif entreeProcessus != 0 :
 			log("je vais fermer sortieProcessus")
 			# os.close(sortiePrec)
-			# afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
-			# os.dup2(entreeProcessus, 0)
+			afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
+			os.dup2(entreeProcessus, 0)
 			# os.close(entreeProcessus)
 			# os.close(sortieProcessus)
 
@@ -42,21 +42,16 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
 
 
-			os.dup2(re_wr_fd,1, False)
+			os.dup2(re_wr_fd,1)
 
 			# os.close(re_wr_fd)
-		else: 
-			pass
-			# os.write(2,b'Pas de redirSortie')
-
-
-		
-		if sortieProcessus != 1:
+		elif sortieProcessus != 1:
 
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
-			os.dup2(sortieProcessus,1, False)
-			os.close(entreeProcessus)
-			os.close(sortieProcessus)
+			os.dup2(sortieProcessus,1)
+		# 	os.close(entreeProcessus)
+			# os.close(sortieProcessus)
+		
 			# os.close(entreeProcessus)
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
@@ -78,6 +73,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		argCommande=[commande]+ argCommande # pour tt les fonction exec le 1er argCommande doit etre la commande lui meme
 
 		try: # essaye cette commande 
+			afficherErreur("va execut " + commande)
 			os.execv("/bin/"+commande,argCommande)
 		except OSError as e:
 			if e.errno==2: # si il y a une erreur 
@@ -129,7 +125,7 @@ def filtrerRedirectionsErreur(processus):
 
 
 if __name__ =='__main__':
-	pl=ssp.get_parser().parse("sh imp.sh | wc -c  ")
+	pl=ssp.get_parser().parse("sh imp.sh | sh pomme.sh | wc -c > sortie.txt  ")
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		#tubesEnchainement.append(os.pipe())
@@ -146,14 +142,20 @@ if __name__ =='__main__':
 		p = pl[i]
 		# print(p)
 
+		num = i
+
+		if(num):
+			rfd = os.open("tube" + str(num-1) + ".txt", os.O_RDONLY )
+		wfd = os.open("tube" + str(num) + ".txt", os.O_WRONLY|os.O_CREAT | os.O_TRUNC)
+
 		if(len(pl) == 0):
-			executerCommandeSimple(p, 0, 1)
+			executerCommandeSimple(p)
 
 		elif i == 0:
-			executerCommandeSimple(p, rfd, wfd)
+			executerCommandeSimple(p, 0, wfd)
 			#os.close(tubesEnchainement[i][1])
 		elif i == len(pl)-1:
-			executerCommandeSimple(p, rfd, wfd, None)
+			executerCommandeSimple(p, rfd, 1)
 			# os.close(tubesEnchainement[i][1])
 			#os.close(tubesEnchainement[i-1][0])
 		else:
@@ -162,11 +164,15 @@ if __name__ =='__main__':
 			# os.close(tubesEnchainement[i-1][0])
 			# os.close(tubesEnchainement[i-1][1])
 
+		if num:
+			os.close(rfd)
+			os.close(wfd)
+
 	# os.close(rfd)
 	# os.close(wfd)
 
 
-	
+
 
 
 

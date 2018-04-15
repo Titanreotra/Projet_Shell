@@ -1,14 +1,19 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 
 void main() {
-	char c = getchar();
-	int i = 0;
+	// char c = getchar();
+	// int i = 0;
 
-	while(c != EOF ) {
-		fputc(c,stderr );
-		putchar(c);
-		c = getchar();
-		i++;
-	}
+	// while(c != EOF ) {
+	// 	// fputc(c,stderr );
+	// 	// c = 'D';
+	// 	if(c >= 'a' && c <= 'z') {
+	// 		c -= 32;
+	// 	}
+	// 	i++;
+	// 	putchar(c);
+	// 	c = getchar();
+	// }
 }
+
