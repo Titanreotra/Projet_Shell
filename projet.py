@@ -21,9 +21,11 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			os.dup2(re_re_fd, 0)
 		elif entreeProcessus != 0 and sortiePrec:
 			log("je vais fermer sortieProcessus")
-			os.close(sortiePrec)
+			# os.close(sortiePrec)
 			afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
 			os.dup2(entreeProcessus, 0)
+			os.close(entreeProcessus)
+			os.close(sortieProcessus)
 
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
@@ -76,6 +78,8 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
 			os.close(1)
 			os.dup2(sortieProcessus,1)
+			os.close(sortieProcessus)
+			# os.close(entreeProcessus)
 		(p,es) = os.waitpid(pid,0)
 		#afficherErreur("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
 
@@ -141,7 +145,7 @@ def filtrerRedirectionsErreur(processus):
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("sh ficTest2.sh  | bing")
+	pl=ssp.get_parser().parse("sh ficTest2.sh  ")
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		tubesEnchainement.append(os.pipe())
@@ -153,7 +157,10 @@ if __name__ =='__main__':
 		p = pl[i]
 		print(p)
 
-		if i == 0:
+		if(len(pl) == 0):
+			executerCommandeSimple(p, 0, 1)
+
+		elif i == 0:
 			executerCommandeSimple(p, 0, tubesEnchainement[i][1])
 		elif i == len(pl)-1:
 			executerCommandeSimple(p, tubesEnchainement[i-1][0], 1, tubesEnchainement[i-1][1])
