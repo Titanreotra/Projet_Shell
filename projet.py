@@ -11,8 +11,8 @@ def executerCommandeSimple(processus):
 		os.close(rfd)# fermeture de cote lecture du pipe
 		commande=processus._cmd.getCommand()
 		argCommande=processus._cmd.getArgs()
-		print("je vais executer " + commande)
-		print("je suis le fils %d" %(os.getpid()))
+		# print("je vais executer " + commande)
+		# print("je suis le fils %d" %(os.getpid()))
 
 		redirEntree=filtrerRedirectionsEntree(processus)
 		#print(redirEntree)
@@ -21,6 +21,7 @@ def executerCommandeSimple(processus):
 			re_re_fd=os.open(redirEntree._filespec, os.O_RDONLY)
 			#print(re_fd)
 			os.dup2(re_re_fd, 0)
+			os.close(re_re_fd)
 
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
@@ -30,7 +31,7 @@ def executerCommandeSimple(processus):
 				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
 			else:
 				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT)
-
+			os.write(2, b'rediriger erreur')
 			os.dup2(re_Er_fd,2)	
 
 		os.dup2(wfd,1)# utiliser wfd au lieu de la sortie standard
@@ -56,21 +57,29 @@ def executerCommandeSimple(processus):
 	else: # pere 
 
 		os.close(wfd) # fermeture du cote  ecriture du pipe
-		print("j attends le %d\n" %(pid))
+		# print("j attends le %d\n" %(pid))
 		#time.sleep(1)
 		(p,es) = os.waitpid(pid,0)
 		#print("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
 
 
-		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le père
 		re_wr_fd=None
+		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le pere
+		print('r')
+		print(redirSortie)
 		if redirSortie:
+			# os.write(2, b'red sortie')
 			if redirSortie.isAppend():
-				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
+				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT | os.O_TRUNC)
 			else:
-				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT)
+				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
 
-			os.dup2(re_wr_fd,1)
+			os.dup2(re_wr_fd,1, inheritable=False)
+
+			# os.close(re_wr_fd)
+		else: 
+			pass
+			# os.write(2,b'Pas de redirSortie')
 
 
 		while True:
@@ -81,13 +90,14 @@ def executerCommandeSimple(processus):
 
 		os.close(rfd) # fermeture du cote lecture du pipe
 		if re_wr_fd:
-		 	os.close(re_wr_fd)
+			os.dup2(1, re_wr_fd)
+			os.close(re_wr_fd)
+			# os.write(2,b'fermer re_wr_fd')
 
 def log(msg): # pour voir les erreur sur le code
 	log_fd=os.open("log.txt", os.O_CREAT | os.O_WRONLY )
 	os.write(log_fd,bytearray(msg,"utf-8"))
 	os.close(log_fd)
-
 
 
 def filtrerRedirectionsEntree(processus):
@@ -100,17 +110,12 @@ def filtrerRedirectionsErreur(processus):
 	return  next((re for re in processus._redirs._redirs if re.__class__.__name__ == "ERRREDIR"), None)
 
 
-
-
-
-
-
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("ps -aux > sortie.txt 2> erreur.txt   | wc -l < shell.py >> shellLongueur.txt | python fictest1.py 2> cerise.txt")
+	pl=ssp.get_parser().parse("sh imp.sh > sortie.txt | sh imp.sh > cerise.txt | sh imp.sh")
 	# pl = ssp.get_parser().parse("sh ficTest2.sh > ghi.txt 2> cerise.txt")
 	for p in pl:
-		print(p)
+		# print(p)
 		#print(filtrerRedirectionsEntree(p))
 		#print(filtrerRedirectionsSortie(p))
 		#print(filtrerRedirectionsErreur(p))
