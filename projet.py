@@ -6,8 +6,9 @@ import lexer as ssp
 rfd = None
 wfd = None
 
-def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sortiePrec = None):
-	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
+def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sortiePrec = None, num = 0):
+	# (rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
+
 
 	pid=os.fork() # 
 	if(pid==0): # le fils s'ocuupe de l'excution de la commande
@@ -126,6 +127,7 @@ def filtrerRedirectionsErreur(processus):
 	return  next((re for re in processus._redirs._redirs if re.__class__.__name__ == "ERRREDIR"), None)
 
 
+
 if __name__ =='__main__':
 	pl=ssp.get_parser().parse("sh imp.sh | wc -c  ")
 	tubesEnchainement = []
@@ -134,9 +136,12 @@ if __name__ =='__main__':
 
 		pass
 
-	rfd, wfd = os.pipe()
+	# rfd, wfd = os.pipe()
 
+	# rfd = os.open("tube1.txt", os.O_RDONLY  )
+	# wfd = os.open("tub2.txt", os.O_WRONLY | )
 
+	even = True
 	for i in range(len(pl)):
 		p = pl[i]
 		# print(p)
@@ -145,7 +150,7 @@ if __name__ =='__main__':
 			executerCommandeSimple(p, 0, 1)
 
 		elif i == 0:
-			executerCommandeSimple(p, 0, wfd)
+			executerCommandeSimple(p, rfd, wfd)
 			#os.close(tubesEnchainement[i][1])
 		elif i == len(pl)-1:
 			executerCommandeSimple(p, rfd, wfd, None)
@@ -157,9 +162,8 @@ if __name__ =='__main__':
 			# os.close(tubesEnchainement[i-1][0])
 			# os.close(tubesEnchainement[i-1][1])
 
-	os.close(rfd)
-	os.close(wfd)
-
+	# os.close(rfd)
+	# os.close(wfd)
 
 
 	
