@@ -128,7 +128,8 @@ if __name__ =='__main__':
 	# pl=ssp.get_parser().parse("sh imp.sh | sh pomme.sh | wc -c > sortie.txt  ")
 	C1 = "ps -aux | sort -k1n 2>> /dev/null | tr 'a-z' 'A-Z' | tee toto.txt | more"
 	C2 = "wc -c blabla.txt | less "
-	pl = ssp.get_parser().parse("ps -aux | sort -k1n 2>> /dev/null | tr 'a-z' 'A-Z' | tee toto.txt | more")
+	C3 = "cat blabla.txt | python fictest1.py 2>  cerise.txt | wc -c | cat "
+	pl = ssp.get_parser().parse(C3)
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		#tubesEnchainement.append(os.pipe())
