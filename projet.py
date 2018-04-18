@@ -19,7 +19,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			# os.close(re_re_fd)
 		elif entreeProcessus != 0 and sortiePrec:
 			os.close(sortiePrec)
-			log("je vais fermer sortieProcessus")
+			afficherErreur("je vais fermer sortieProcessus")
 			# os.close(sortiePrec)
 			afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
 			os.dup2(entreeProcessus, 0)
@@ -29,6 +29,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le pere
 		# print('r')
 		# print(redirSortie)
+		## redirection entre *************
 		if redirSortie:
 			# os.write(2, b'red sortie')
 			if redirSortie.isAppend():
@@ -39,14 +40,10 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 			os.dup2(re_wr_fd,1)
 
+			# fin ***********************************
+
 			# os.close(re_wr_fd)
-		else: 
-			pass
-			# os.write(2,b'Pas de redirSortie')
-
-
-		
-		if sortieProcessus != 1:
+		elif sortieProcessus != 1:
 			os.close(entreeProcessus)
 
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
@@ -87,12 +84,15 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 							os.execv("./"+commande, argCommande)
 						except OSError as e:
-							afficherErreur("commande echoue")
+							fficherErreur("commande echoue")
 							os.write(2,byteaargCommanderray(e.strerror,"utf-8")) # affiche dans la sortie d'erreur standard
+		sys.exit(-1)
 				
 			
 	else: # pere 
-		os.close(wfd) # fermeture du cote  ecriture du pipe
+		pass
+		#os.close(wfd) # fermeture du cote  ecriture du pipe
+		# os.close(rfd)
 		#afficherErreur("j attends le %d %s\n " %(pid, processus._cmd.getCommand()))
 		#time.sleep(1)
 		#afficherErreur("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
@@ -122,8 +122,8 @@ def filtrerRedirectionsErreur(processus):
 
 
 if __name__ =='__main__':
-	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("sh imp.sh | cat |wc -c  ")
+	pl = ssp.get_parser().parse("which tee | more")
+	# pl=ssp.get_parser().parse("ps -aux | sort -k1n   | tr 'a-z' 'A-Z' | tee toto.txt | wc -c")
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		tubesEnchainement.append(os.pipe())
@@ -145,10 +145,11 @@ if __name__ =='__main__':
 			executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
 
 
-	
+	afficherErreur("avant fermeture fils")
 	for i in range(len(pl)):
 		(p,es) = os.waitpid(-1,os.WNOHANG)
 
+	afficherErreur("fin du programe")
 
 
 

@@ -1,0 +1,1055 @@
+avahi      742  0.0  0.0  44780  3160 ?        Ss   02:51   0:00 avahi-daemon: running [titanreotra-UX305FA.local]
+avahi      764  0.0  0.0  44780   336 ?        S    02:51   0:00 avahi-daemon: chroot helper
+colord    1130  0.0  0.3 320880 13044 ?        Ssl  02:51   0:00 /usr/lib/colord/colord
+lp         809  0.0  0.1  81244  5496 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         810  0.0  0.1  81244  5532 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         811  0.0  0.1  81244  5588 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+message+   755  0.1  0.1  44364  5248 ?        Ss   02:51   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nobody    1290  0.0  0.1  59992  4120 ?        S    02:51   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        10  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/0]
+root      1023  0.0  0.1 230304  6404 ?        Sl   02:51   0:00 lightdm --session-child 12 19
+root       103  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/0:2]
+root         1  0.3  0.1 185280  5844 ?        Ss   02:51   0:01 /sbin/init splash
+root       104  0.0  0.0      0     0 ?        S<   02:51   0:00 [ipv6_addrconf]
+root        11  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/0]
+root      1103  0.0  0.2 354624 10284 ?        Ssl  02:51   0:00 /usr/lib/upower/upowerd
+root      1128  0.0  0.0      0     0 ?        S<   02:51   0:00 [krfcommd]
+root        12  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/0]
+root      1221  0.0  0.0  16124  3640 ?        S    02:51   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-69ff31fd-feca-4559-83f1-fbfe360dbf30-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root        13  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/1]
+root       133  0.0  0.0      0     0 ?        S<   02:51   0:00 [charger_manager]
+root        14  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/1]
+root       164  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/2:2]
+root        18  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/1:0H]
+root       182  0.0  0.0      0     0 ?        S    02:51   0:00 [scsi_eh_0]
+root       183  0.0  0.0      0     0 ?        S<   02:51   0:00 [scsi_tmf_0]
+root       184  0.0  0.0      0     0 ?        S    02:51   0:00 [scsi_eh_1]
+root       185  0.0  0.0      0     0 ?        S<   02:51   0:00 [scsi_tmf_1]
+root      1867  0.0  0.2 382400  9888 ?        Ssl  02:51   0:00 /usr/lib/udisks2/udisksd --no-debug
+root       187  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:0]
+root       188  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:1]
+root       189  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:2]
+root       190  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:4]
+root        19  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/2]
+root      1905  0.2  0.8 518928 34136 ?        Ssl  02:51   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root       194  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/1:1H]
+root       195  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/2:1H]
+root       196  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/0:1H]
+root        20  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/2]
+root         2  0.0  0.0      0     0 ?        S    02:51   0:00 [kthreadd]
+root        21  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/2]
+root       211  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/3:1H]
+root       219  0.0  0.0      0     0 ?        S    02:51   0:00 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   02:51   0:00 [ext4-rsv-conver]
+root        22  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/2:0H]
+root      2454  0.0  0.0      0     0 ?        S    02:57   0:00 [kworker/2:0]
+root        25  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/3]
+root      2512  0.0  0.0      0     0 ?        S    02:58   0:00 [kworker/0:0]
+root       254  0.0  0.0  32128  3812 ?        Ss   02:51   0:00 /lib/systemd/systemd-journald
+root      2553  0.0  0.0      0     0 ?        S    02:58   0:00 [kworker/1:0]
+root       258  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/1:2]
+root        26  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/3]
+root      2621  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/u8:2]
+root      2624  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/u8:3]
+root      2627  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/3:2]
+root        27  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/3]
+root       282  0.0  0.1  45764  4528 ?        Ss   02:51   0:00 /lib/systemd/systemd-udevd
+root        29  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/3:0]
+root        30  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    02:51   0:00 [kdevtmpfs]
+root       311  0.0  0.0      0     0 ?        S<   02:51   0:00 [asus_wireless_w]
+root        32  0.0  0.0      0     0 ?        S<   02:51   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/0:1]
+root       336  0.0  0.0      0     0 ?        S    02:51   0:00 [irq/47-mei_me]
+root        34  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/1:1]
+root       350  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/u9:0]
+root        35  0.0  0.0      0     0 ?        S    02:51   0:00 [khungtaskd]
+root       352  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/u9:2]
+root       353  0.0  0.0      0     0 ?        S<   02:51   0:00 [cfg80211]
+root       354  0.0  0.0      0     0 ?        S    02:51   0:00 [irq/50-iwlwifi]
+root        36  0.0  0.0      0     0 ?        S    02:51   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        S<   02:51   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    02:51   0:00 [kcompactd0]
+root       390  0.0  0.0      0     0 ?        S<   02:51   0:00 [led_workqueue]
+root        39  0.0  0.0      0     0 ?        SN   02:51   0:00 [ksmd]
+root        40  0.0  0.0      0     0 ?        SN   02:51   0:00 [khugepaged]
+root         4  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/0:0H]
+root        41  0.0  0.0      0     0 ?        S<   02:51   0:00 [crypto]
+root        42  0.0  0.0      0     0 ?        S<   02:51   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   02:51   0:00 [kblockd]
+root        44  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/2:1]
+root        45  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/3:1]
+root        46  0.0  0.0      0     0 ?        S<   02:51   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S<   02:51   0:00 [md]
+root        48  0.0  0.0      0     0 ?        S<   02:51   0:00 [edac-poller]
+root        49  0.0  0.0      0     0 ?        S<   02:51   0:00 [devfreq_wq]
+root        50  0.0  0.0      0     0 ?        S<   02:51   0:00 [watchdogd]
+root         5  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/u8:0]
+root        51  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/u8:1]
+root        53  0.0  0.0      0     0 ?        S    02:51   0:00 [kauditd]
+root        54  0.0  0.0      0     0 ?        S    02:51   0:00 [kswapd0]
+root        55  0.0  0.0      0     0 ?        S    02:51   0:00 [ecryptfs-kthrea]
+root         6  0.0  0.0      0     0 ?        S<   02:51   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/0]
+root       731  0.0  0.2 173476  8848 ?        Ssl  02:51   0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root       735  0.0  0.0   4396  1268 ?        Ss   02:51   0:00 /usr/sbin/acpid
+root       737  0.0  0.1 100336  7388 ?        Ss   02:51   0:00 /usr/sbin/cupsd -l
+root       744  0.0  0.0  28628  3040 ?        Ss   02:51   0:00 /lib/systemd/systemd-logind
+root       750  0.0  0.0  36076  2996 ?        Ss   02:51   0:00 /usr/sbin/cron -f
+root       754  0.0  0.2 298644  8696 ?        Ssl  02:51   0:00 /usr/lib/accountsservice/accounts-daemon
+root       782  0.1  0.4 463560 17952 ?        Ssl  02:51   0:00 /usr/sbin/NetworkManager --no-daemon
+root       783  0.0  0.1  31956  4216 ?        Ss   02:51   0:00 /usr/lib/bluetooth/bluetoothd
+root       785  0.0  0.2 274816  9376 ?        Ssl  02:51   0:00 /usr/sbin/cups-browsed
+root       787  0.0  0.5 278448 22704 ?        Ssl  02:51   0:00 /usr/lib/snapd/snapd
+root         8  0.0  0.0      0     0 ?        S    02:51   0:00 [rcu_sched]
+root       864  0.0  0.0  19472   252 ?        Ss   02:51   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       887  0.0  0.2 304712 10920 ?        Ssl  02:51   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root         9  0.0  0.0      0     0 ?        S    02:51   0:00 [rcu_bh]
+root       903  0.0  0.2 292196  8140 ?        SLsl 02:51   0:00 /usr/sbin/lightdm
+root       934  1.5  2.5 477524 99740 tty7     Ssl+ 02:51   0:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       944  0.0  0.1  44028  7248 ?        Ss   02:51   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       957  0.0  0.0  23004  1740 tty1     Ss+  02:51   0:00 /sbin/agetty --noclear tty1 linux
+root        97  0.0  0.0      0     0 ?        S<   02:51   0:00 [kthrotld]
+root        98  0.0  0.0      0     0 ?        S<   02:51   0:00 [acpi_thermal_pm]
+rtkit     1086  0.0  0.0 183544  2920 ?        SNsl 02:51   0:00 /usr/lib/rtkit/rtkit-daemon
+syslog     730  0.0  0.0 256392  3280 ?        Ssl  02:51   0:00 /usr/sbin/rsyslogd -n
+systemd+   603  0.0  0.0 102384  2596 ?        Ssl  02:51   0:00 /lib/systemd/systemd-timesyncd
+titanre+  1201  0.0  0.1  45276  4592 ?        Ss   02:51   0:00 /lib/systemd/systemd --user
+titanre+  1202  0.0  0.0  63360  1984 ?        S    02:51   0:00 (sd-pam)
+titanre+  1265  0.0  0.1 212612  6492 ?        Sl   02:51   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+titanre+  1275  0.0  0.1  53736  4916 ?        Ss   02:51   0:00 /sbin/upstart --user
+titanre+  1500  0.0  0.0  39996   276 ?        S    02:51   0:00 upstart-udev-bridge --daemon --user
+titanre+  1508  0.1  0.1  43852  4336 ?        Ss   02:51   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Fkyzy3q9y8
+titanre+  1520  0.0  0.2  93412  8688 ?        Ss   02:51   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+titanre+  1563  0.2  0.2 365588  8636 ?        Ssl  02:51   0:01 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+titanre+  1568  0.0  0.0  39900   320 ?        S    02:51   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+titanre+  1570  0.0  0.0  39976  1652 ?        S    02:51   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+titanre+  1575  0.1  0.7 533348 27920 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+titanre+  1578  0.0  0.0  48392   404 ?        S    02:51   0:00 upstart-file-bridge --daemon --user
+titanre+  1579  0.0  0.1 281780  6232 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd
+titanre+  1585  0.0  0.1 419964  7136 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+titanre+  1589  0.0  0.2 284844  8224 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-dconf
+titanre+  1592  0.0  0.7 487556 30504 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-ui-gtk3
+titanre+  1596  0.0  0.5 437828 21748 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+titanre+  1610  0.0  0.2 353672  8164 ?        Sl   02:51   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+titanre+  1617  0.0  0.1  42896  4024 ?        S    02:51   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+titanre+  1620  0.0  0.1 206864  6392 ?        Sl   02:51   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+titanre+  1626  0.0  0.2 208976  8036 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-engine-simple
+titanre+  1634  0.0  0.0 173876   788 ?        Ss   02:51   0:00 gpg-agent --homedir /home/titanreotra/.gnupg --use-standard-socket --daemon
+titanre+  1644  0.4  1.2 664960 49552 ?        Ssl  02:51   0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+titanre+  1646  0.1  0.8 864376 33248 ?        Ssl  02:51   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+titanre+  1658  0.0  0.3 634180 14832 ?        Ssl  02:51   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+titanre+  1670  0.3  1.4 667656 55576 ?        Ssl  02:51   0:01 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+titanre+  1701  0.0  0.1 178660  4748 ?        Sl   02:51   0:00 /usr/lib/dconf/dconf-service
+titanre+  1714  0.0  0.2 377436  9492 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+titanre+  1715  0.0  0.2 356412  7992 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+titanre+  1718  0.0  0.2 449400 10572 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+titanre+  1723  0.0  0.4 1247928 18076 ?       Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+titanre+  1724  0.0  0.6 659224 27560 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+titanre+  1725  0.0  0.3 683224 12628 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+titanre+  1726  0.0  0.6 557336 25552 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+titanre+  1731  0.0  0.2 643684  8460 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+titanre+  1733  0.0  0.3 403148 12740 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+titanre+  1766  0.0  0.6 638196 24004 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-source-registry
+titanre+  1768  0.0  0.2 348440 11484 ?        Sl   02:51   0:00 /usr/lib/geoclue/geoclue-master
+titanre+  1777  0.0  0.2 516184 11712 ?        S<l  02:51   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+titanre+  1781  0.0  0.0  22368  1068 ?        S    02:51   0:00 syndaemon -i 1.0 -t -K -R
+titanre+  1790  2.2  3.4 1493992 137844 ?      Rsl  02:51   0:10 compiz
+titanre+  1807  0.0  0.3 510156 12912 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+titanre+  1826  0.0  1.5 877256 61016 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory
+titanre+  1838  0.0  0.5 439208 20468 ?        Sl   02:51   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+titanre+  1839  0.2  1.2 870332 49712 ?        Sl   02:51   0:00 nautilus -n
+titanre+  1841  0.0  0.8 755272 35172 ?        Sl   02:51   0:00 nm-applet
+titanre+  1843  0.0  0.5 584668 21712 ?        Sl   02:51   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+titanre+  1847  0.2  1.9 745416 75004 ?        SLl  02:51   0:01 /usr/bin/gnome-software --gapplication-service
+titanre+  1864  0.0  0.2 303700  9980 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+titanre+  1883  0.0  0.2 410872  9152 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+titanre+  1894  0.0  0.1 266752  4528 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+titanre+  1906  0.0  0.1 264788  4956 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+titanre+  1915  0.0  0.1 278948  6148 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+titanre+  1923  0.0  1.3 830148 51544 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/2
+titanre+  1934  0.0  0.5 704764 19840 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-addressbook-factory
+titanre+  1937  0.0  1.2 945600 50700 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/3
+titanre+  1953  0.0  0.4 919576 19128 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1934x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1934/2
+titanre+  1981  0.0  0.2 371056  8460 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+titanre+  1997  0.0  0.1 193232  5608 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-metadata
+titanre+  2022  0.0  0.4 654528 17648 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+titanre+  2032  0.0  0.6 659208 25004 ?        Sl   02:51   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+titanre+  2034  0.0  0.3 654360 14224 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+titanre+  2045  0.0  0.0   4504   844 ?        S    02:52   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+titanre+  2049  0.0  0.2 423508  9032 ?        Sl   02:52   0:00 /usr/bin/zeitgeist-daemon
+titanre+  2056  0.0  0.3 321464 15544 ?        Sl   02:52   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+titanre+  2058  0.0  0.4 448908 16320 ?        Sl   02:52   0:00 zeitgeist-datahub
+titanre+  2104  0.3  0.9 670100 36264 ?        Sl   02:52   0:01 /usr/lib/gnome-terminal/gnome-terminal-server
+titanre+  2110  0.0  0.1  30040  5600 pts/17   Ss   02:52   0:00 bash
+titanre+  2236  0.0  0.6 534096 27052 ?        Sl   02:52   0:00 update-notifier
+titanre+  2325  0.0  0.2 448704  8932 ?        Sl   02:53   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+titanre+  2397  4.9  2.4 1072076 95832 ?       Ssl  02:55   0:10 /opt/sublime_text/sublime_text .
+titanre+  2412  0.4  0.4 127228 19260 ?        Sl   02:55   0:00 /opt/sublime_text/plugin_host 2397
+titanre+  2648  0.0  0.3  39776 12384 pts/17   R+   02:59   0:00 python3 projet.py
+titanre+  2690  0.0  0.0  44524  3412 pts/17   R+   02:59   0:00 ps -aux
+titanre+  2691  0.0  0.0  29024   928 pts/17   S+   02:59   0:00 sort -k1n
+titanre+  2692  0.0  0.0  14384   768 pts/17   S+   02:59   0:00 tr 'a-z' 'A-Z'
+titanre+  2693  0.0  0.0  14684   812 pts/17   S+   02:59   0:00 tee toto.txt
+titanre+  2694  0.0  0.0  14688   656 pts/17   S+   02:59   0:00 wc -l
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+whoopsie   952  0.0  0.3 378476 12604 ?        Ssl  02:51   0:00 /usr/bin/whoopsie -f
+avahi      742  0.0  0.0  44780  3160 ?        Ss   02:51   0:00 avahi-daemon: running [titanreotra-UX305FA.local]
+avahi      764  0.0  0.0  44780   336 ?        S    02:51   0:00 avahi-daemon: chroot helper
+colord    1130  0.0  0.3 320880 13044 ?        Ssl  02:51   0:00 /usr/lib/colord/colord
+lp         809  0.0  0.1  81244  5496 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         810  0.0  0.1  81244  5532 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         811  0.0  0.1  81244  5588 ?        S    02:51   0:00 /usr/lib/cups/notifier/dbus dbus://
+message+   755  0.1  0.1  44364  5248 ?        Ss   02:51   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nobody    1290  0.0  0.1  59992  4120 ?        S    02:51   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        10  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/0]
+root      1023  0.0  0.1 230304  6404 ?        Sl   02:51   0:00 lightdm --session-child 12 19
+root       103  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/0:2]
+root         1  0.3  0.1 185280  5844 ?        Ss   02:51   0:01 /sbin/init splash
+root       104  0.0  0.0      0     0 ?        S<   02:51   0:00 [ipv6_addrconf]
+root        11  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/0]
+root      1103  0.0  0.2 354624 10284 ?        Ssl  02:51   0:00 /usr/lib/upower/upowerd
+root      1128  0.0  0.0      0     0 ?        S<   02:51   0:00 [krfcommd]
+root        12  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/0]
+root      1221  0.0  0.0  16124  3640 ?        S    02:51   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-69ff31fd-feca-4559-83f1-fbfe360dbf30-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root        13  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/1]
+root       133  0.0  0.0      0     0 ?        S<   02:51   0:00 [charger_manager]
+root        14  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/1]
+root       164  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/2:2]
+root        18  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/1:0H]
+root       182  0.0  0.0      0     0 ?        S    02:51   0:00 [scsi_eh_0]
+root       183  0.0  0.0      0     0 ?        S<   02:51   0:00 [scsi_tmf_0]
+root       184  0.0  0.0      0     0 ?        S    02:51   0:00 [scsi_eh_1]
+root       185  0.0  0.0      0     0 ?        S<   02:51   0:00 [scsi_tmf_1]
+root      1867  0.0  0.2 382400  9888 ?        Ssl  02:51   0:00 /usr/lib/udisks2/udisksd --no-debug
+root       187  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:0]
+root       188  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:1]
+root       189  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:2]
+root       190  0.0  0.0      0     0 ?        S    02:51   0:00 [i915/signal:4]
+root        19  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/2]
+root      1905  0.2  0.8 518928 34136 ?        Ssl  02:51   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root       194  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/1:1H]
+root       195  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/2:1H]
+root       196  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/0:1H]
+root        20  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/2]
+root         2  0.0  0.0      0     0 ?        S    02:51   0:00 [kthreadd]
+root        21  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/2]
+root       211  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/3:1H]
+root       219  0.0  0.0      0     0 ?        S    02:51   0:00 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   02:51   0:00 [ext4-rsv-conver]
+root        22  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/2:0H]
+root      2454  0.0  0.0      0     0 ?        S    02:57   0:00 [kworker/2:0]
+root        25  0.0  0.0      0     0 ?        S    02:51   0:00 [cpuhp/3]
+root      2512  0.0  0.0      0     0 ?        S    02:58   0:00 [kworker/0:0]
+root       254  0.0  0.0  32128  3812 ?        Ss   02:51   0:00 /lib/systemd/systemd-journald
+root      2553  0.0  0.0      0     0 ?        S    02:58   0:00 [kworker/1:0]
+root       258  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/1:2]
+root        26  0.0  0.0      0     0 ?        S    02:51   0:00 [watchdog/3]
+root      2621  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/u8:2]
+root      2624  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/u8:3]
+root      2627  0.0  0.0      0     0 ?        S    02:59   0:00 [kworker/3:2]
+root        27  0.0  0.0      0     0 ?        S    02:51   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/3]
+root       282  0.0  0.1  45764  4528 ?        Ss   02:51   0:00 /lib/systemd/systemd-udevd
+root        29  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/3:0]
+root        30  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    02:51   0:00 [kdevtmpfs]
+root       311  0.0  0.0      0     0 ?        S<   02:51   0:00 [asus_wireless_w]
+root        32  0.0  0.0      0     0 ?        S<   02:51   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/0:1]
+root       336  0.0  0.0      0     0 ?        S    02:51   0:00 [irq/47-mei_me]
+root        34  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/1:1]
+root       350  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/u9:0]
+root        35  0.0  0.0      0     0 ?        S    02:51   0:00 [khungtaskd]
+root       352  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/u9:2]
+root       353  0.0  0.0      0     0 ?        S<   02:51   0:00 [cfg80211]
+root       354  0.0  0.0      0     0 ?        S    02:51   0:00 [irq/50-iwlwifi]
+root        36  0.0  0.0      0     0 ?        S    02:51   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        S<   02:51   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    02:51   0:00 [kcompactd0]
+root       390  0.0  0.0      0     0 ?        S<   02:51   0:00 [led_workqueue]
+root        39  0.0  0.0      0     0 ?        SN   02:51   0:00 [ksmd]
+root        40  0.0  0.0      0     0 ?        SN   02:51   0:00 [khugepaged]
+root         4  0.0  0.0      0     0 ?        S<   02:51   0:00 [kworker/0:0H]
+root        41  0.0  0.0      0     0 ?        S<   02:51   0:00 [crypto]
+root        42  0.0  0.0      0     0 ?        S<   02:51   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   02:51   0:00 [kblockd]
+root        44  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/2:1]
+root        45  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/3:1]
+root        46  0.0  0.0      0     0 ?        S<   02:51   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S<   02:51   0:00 [md]
+root        48  0.0  0.0      0     0 ?        S<   02:51   0:00 [edac-poller]
+root        49  0.0  0.0      0     0 ?        S<   02:51   0:00 [devfreq_wq]
+root        50  0.0  0.0      0     0 ?        S<   02:51   0:00 [watchdogd]
+root         5  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/u8:0]
+root        51  0.0  0.0      0     0 ?        S    02:51   0:00 [kworker/u8:1]
+root        53  0.0  0.0      0     0 ?        S    02:51   0:00 [kauditd]
+root        54  0.0  0.0      0     0 ?        S    02:51   0:00 [kswapd0]
+root        55  0.0  0.0      0     0 ?        S    02:51   0:00 [ecryptfs-kthrea]
+root         6  0.0  0.0      0     0 ?        S<   02:51   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    02:51   0:00 [ksoftirqd/0]
+root       731  0.0  0.2 173476  8848 ?        Ssl  02:51   0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root       735  0.0  0.0   4396  1268 ?        Ss   02:51   0:00 /usr/sbin/acpid
+root       737  0.0  0.1 100336  7388 ?        Ss   02:51   0:00 /usr/sbin/cupsd -l
+root       744  0.0  0.0  28628  3040 ?        Ss   02:51   0:00 /lib/systemd/systemd-logind
+root       750  0.0  0.0  36076  2996 ?        Ss   02:51   0:00 /usr/sbin/cron -f
+root       754  0.0  0.2 298644  8696 ?        Ssl  02:51   0:00 /usr/lib/accountsservice/accounts-daemon
+root       782  0.1  0.4 463560 17952 ?        Ssl  02:51   0:00 /usr/sbin/NetworkManager --no-daemon
+root       783  0.0  0.1  31956  4216 ?        Ss   02:51   0:00 /usr/lib/bluetooth/bluetoothd
+root       785  0.0  0.2 274816  9376 ?        Ssl  02:51   0:00 /usr/sbin/cups-browsed
+root       787  0.0  0.5 278448 22704 ?        Ssl  02:51   0:00 /usr/lib/snapd/snapd
+root         8  0.0  0.0      0     0 ?        S    02:51   0:00 [rcu_sched]
+root       864  0.0  0.0  19472   252 ?        Ss   02:51   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       887  0.0  0.2 304712 10920 ?        Ssl  02:51   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root         9  0.0  0.0      0     0 ?        S    02:51   0:00 [rcu_bh]
+root       903  0.0  0.2 292196  8140 ?        SLsl 02:51   0:00 /usr/sbin/lightdm
+root       934  1.5  2.5 477748 99988 tty7     Ssl+ 02:51   0:07 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       944  0.0  0.1  44028  7248 ?        Ss   02:51   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       957  0.0  0.0  23004  1740 tty1     Ss+  02:51   0:00 /sbin/agetty --noclear tty1 linux
+root        97  0.0  0.0      0     0 ?        S<   02:51   0:00 [kthrotld]
+root        98  0.0  0.0      0     0 ?        S<   02:51   0:00 [acpi_thermal_pm]
+rtkit     1086  0.0  0.0 183544  2920 ?        SNsl 02:51   0:00 /usr/lib/rtkit/rtkit-daemon
+syslog     730  0.0  0.0 256392  3280 ?        Ssl  02:51   0:00 /usr/sbin/rsyslogd -n
+systemd+   603  0.0  0.0 102384  2596 ?        Ssl  02:51   0:00 /lib/systemd/systemd-timesyncd
+titanre+  1201  0.0  0.1  45276  4592 ?        Ss   02:51   0:00 /lib/systemd/systemd --user
+titanre+  1202  0.0  0.0  63360  1984 ?        S    02:51   0:00 (sd-pam)
+titanre+  1265  0.0  0.1 212612  6492 ?        Sl   02:51   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+titanre+  1275  0.0  0.1  53736  4916 ?        Ss   02:51   0:00 /sbin/upstart --user
+titanre+  1500  0.0  0.0  39996   276 ?        S    02:51   0:00 upstart-udev-bridge --daemon --user
+titanre+  1508  0.1  0.1  43852  4336 ?        Ss   02:51   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Fkyzy3q9y8
+titanre+  1520  0.0  0.2  93412  8688 ?        Ss   02:51   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+titanre+  1563  0.2  0.2 365724  8892 ?        Ssl  02:51   0:01 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+titanre+  1568  0.0  0.0  39900   320 ?        S    02:51   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+titanre+  1570  0.0  0.0  39976  1652 ?        S    02:51   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+titanre+  1575  0.1  0.7 533348 27920 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+titanre+  1578  0.0  0.0  48392   404 ?        S    02:51   0:00 upstart-file-bridge --daemon --user
+titanre+  1579  0.0  0.1 281780  6232 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd
+titanre+  1585  0.0  0.1 419964  7136 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+titanre+  1589  0.0  0.2 284844  8224 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-dconf
+titanre+  1592  0.0  0.7 487556 30504 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-ui-gtk3
+titanre+  1596  0.0  0.5 437828 21748 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+titanre+  1610  0.0  0.2 353672  8164 ?        Sl   02:51   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+titanre+  1617  0.0  0.1  42896  4024 ?        S    02:51   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+titanre+  1620  0.0  0.1 206864  6392 ?        Sl   02:51   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+titanre+  1626  0.0  0.2 208976  8036 ?        Sl   02:51   0:00 /usr/lib/ibus/ibus-engine-simple
+titanre+  1634  0.0  0.0 173876   788 ?        Ss   02:51   0:00 gpg-agent --homedir /home/titanreotra/.gnupg --use-standard-socket --daemon
+titanre+  1644  0.4  1.2 664960 49552 ?        Ssl  02:51   0:02 /usr/lib/x86_64-linux-gnu/hud/hud-service
+titanre+  1646  0.1  0.8 864376 33248 ?        Ssl  02:51   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+titanre+  1658  0.0  0.3 634180 14832 ?        Ssl  02:51   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+titanre+  1670  0.3  1.4 667656 55576 ?        Ssl  02:51   0:01 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+titanre+  1701  0.0  0.1 178660  4748 ?        Sl   02:51   0:00 /usr/lib/dconf/dconf-service
+titanre+  1714  0.0  0.2 377436  9492 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+titanre+  1715  0.0  0.2 356412  7992 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+titanre+  1718  0.0  0.2 449400 10572 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+titanre+  1723  0.0  0.4 1247928 18076 ?       Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+titanre+  1724  0.0  0.6 659224 27560 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+titanre+  1725  0.0  0.3 683224 12628 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+titanre+  1726  0.0  0.6 557336 25552 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+titanre+  1731  0.0  0.2 643684  8460 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+titanre+  1733  0.0  0.3 403148 12740 ?        Ssl  02:51   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+titanre+  1766  0.0  0.6 638196 24004 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-source-registry
+titanre+  1768  0.0  0.2 348440 11484 ?        Sl   02:51   0:00 /usr/lib/geoclue/geoclue-master
+titanre+  1777  0.0  0.2 516184 11712 ?        S<l  02:51   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+titanre+  1781  0.0  0.0  22368  1068 ?        S    02:51   0:00 syndaemon -i 1.0 -t -K -R
+titanre+  1790  2.3  3.4 1493992 137836 ?      Ssl  02:51   0:11 compiz
+titanre+  1807  0.0  0.3 510156 12912 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+titanre+  1826  0.0  1.5 877256 61016 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory
+titanre+  1838  0.0  0.5 439208 20468 ?        Sl   02:51   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+titanre+  1839  0.1  1.2 870332 49712 ?        Sl   02:51   0:00 nautilus -n
+titanre+  1841  0.0  0.8 755272 35172 ?        Sl   02:51   0:00 nm-applet
+titanre+  1843  0.0  0.5 584668 21712 ?        Sl   02:51   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+titanre+  1847  0.2  1.9 745416 75004 ?        SLl  02:51   0:01 /usr/bin/gnome-software --gapplication-service
+titanre+  1864  0.0  0.2 303700  9980 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+titanre+  1883  0.0  0.2 410872  9152 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+titanre+  1894  0.0  0.1 266752  4528 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+titanre+  1906  0.0  0.1 264788  4956 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+titanre+  1915  0.0  0.1 278948  6148 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+titanre+  1923  0.0  1.3 830148 51544 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/2
+titanre+  1934  0.0  0.5 704764 19840 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-addressbook-factory
+titanre+  1937  0.0  1.2 945600 50700 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/3
+titanre+  1953  0.0  0.4 919576 19128 ?        Sl   02:51   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1934x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1934/2
+titanre+  1981  0.0  0.2 371056  8460 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+titanre+  1997  0.0  0.1 193232  5608 ?        Sl   02:51   0:00 /usr/lib/gvfs/gvfsd-metadata
+titanre+  2022  0.0  0.4 654528 17648 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+titanre+  2032  0.0  0.6 659208 25004 ?        Sl   02:51   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+titanre+  2034  0.0  0.3 654360 14224 ?        Sl   02:51   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+titanre+  2045  0.0  0.0   4504   844 ?        S    02:52   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+titanre+  2049  0.0  0.2 423508  9032 ?        Sl   02:52   0:00 /usr/bin/zeitgeist-daemon
+titanre+  2056  0.0  0.3 321464 15544 ?        Sl   02:52   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+titanre+  2058  0.0  0.4 448908 16320 ?        Sl   02:52   0:00 zeitgeist-datahub
+titanre+  2104  0.3  0.9 670100 36264 ?        Sl   02:52   0:01 /usr/lib/gnome-terminal/gnome-terminal-server
+titanre+  2110  0.0  0.1  30040  5600 pts/17   Ss   02:52   0:00 bash
+titanre+  2236  0.0  0.6 534096 27052 ?        Sl   02:52   0:00 update-notifier
+titanre+  2325  0.0  0.2 448704  8932 ?        Sl   02:53   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+titanre+  2397  4.8  2.4 1080268 95640 ?       Ssl  02:55   0:11 /opt/sublime_text/sublime_text .
+titanre+  2412  0.4  0.4 127228 19260 ?        Sl   02:55   0:01 /opt/sublime_text/plugin_host 2397
+titanre+  2733  0.0  0.0      0     0 ?        ZN   02:59   0:00 [sublime_text] <defunct>
+titanre+  2734  0.0  0.0      0     0 ?        ZN   02:59   0:00 [sublime_text] <defunct>
+titanre+  2747  0.0  0.3  39760 12300 pts/17   R+   02:59   0:00 python3 projet.py
+titanre+  2789  0.0  0.0  44524  3300 pts/17   R+   02:59   0:00 ps -aux
+titanre+  2790  0.0  0.0  29024   856 pts/17   S+   02:59   0:00 sort -k1n
+titanre+  2791  0.0  0.0  14384   820 pts/17   S+   02:59   0:00 tr 'a-z' 'A-Z'
+titanre+  2792  0.0  0.0  14684   808 pts/17   S+   02:59   0:00 tee toto.txt
+titanre+  2793  0.0  0.0  14688   668 pts/17   S+   02:59   0:00 wc -c
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+whoopsie   952  0.0  0.3 378476 12604 ?        Ssl  02:51   0:00 /usr/bin/whoopsie -f
+avahi      742  0.0  0.1  46720  5148 ?        Ss   avril17   0:07 avahi-daemon: running [titanreotra-UX305FA.local]
+avahi      764  0.0  0.0  44780    44 ?        S    avril17   0:00 avahi-daemon: chroot helper
+colord    1130  0.0  0.2 320880  9244 ?        Ssl  avril17   0:00 /usr/lib/colord/colord
+lp        7616  0.0  0.1  81376  5664 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7617  0.0  0.1  81376  5728 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7618  0.0  0.1  81244  5752 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        8697  0.0  0.1  81376  5596 ?        S    10:14   0:00 /usr/lib/cups/notifier/dbus dbus://
+message+   755  0.0  0.1  44448  4844 ?        Ss   avril17   0:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nobody    1290  0.0  0.0  59992  3468 ?        S    avril17   0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        10  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/0]
+root         1  0.0  0.1 185280  5148 ?        Ss   avril17   0:02 /sbin/init splash
+root     10022  0.0  0.0  16124  3552 ?        S    21:54   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-69ff31fd-feca-4559-83f1-fbfe360dbf30-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root      1023  0.0  0.1 230304  5188 ?        Sl   avril17   0:00 lightdm --session-child 12 19
+root       104  0.0  0.0      0     0 ?        S<   avril17   0:00 [ipv6_addrconf]
+root        11  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/0]
+root      1103  0.0  0.2 354624  8348 ?        Ssl  avril17   0:01 /usr/lib/upower/upowerd
+root      1128  0.0  0.0      0     0 ?        S<   avril17   0:00 [krfcommd]
+root        12  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/1]
+root       133  0.0  0.0      0     0 ?        S<   avril17   0:00 [charger_manager]
+root        14  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:0H]
+root       182  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_0]
+root       183  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_0]
+root       184  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_1]
+root       185  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_1]
+root      1867  0.0  0.2 447936 10000 ?        Ssl  avril17   0:03 /usr/lib/udisks2/udisksd --no-debug
+root       187  0.0  0.0      0     0 ?        S    avril17   0:03 [i915/signal:0]
+root       188  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:1]
+root       189  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:2]
+root       190  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:4]
+root        19  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/2]
+root      1905  0.0  0.8 518928 32144 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root       194  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:1H]
+root       195  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:1H]
+root       196  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:1H]
+root        20  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/2]
+root         2  0.0  0.0      0     0 ?        S    avril17   0:00 [kthreadd]
+root        21  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/2]
+root       211  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:1H]
+root       219  0.0  0.0      0     0 ?        S    avril17   0:00 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   avril17   0:00 [ext4-rsv-conver]
+root        22  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/3]
+root       254  0.0  0.0  32232  3256 ?        Ss   avril17   0:00 /lib/systemd/systemd-journald
+root        26  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/3]
+root       282  0.0  0.0  45764  2804 ?        Ss   avril17   0:00 /lib/systemd/systemd-udevd
+root        30  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    avril17   0:00 [kdevtmpfs]
+root       311  0.0  0.0      0     0 ?        S<   avril17   0:00 [asus_wireless_w]
+root        32  0.0  0.0      0     0 ?        S<   avril17   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    avril17   0:00 [khungtaskd]
+root       352  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/u9:2]
+root       353  0.0  0.0      0     0 ?        S<   avril17   0:00 [cfg80211]
+root       354  0.0  0.0      0     0 ?        S    avril17   0:09 [irq/50-iwlwifi]
+root        36  0.0  0.0      0     0 ?        S    avril17   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        S<   avril17   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    avril17   0:00 [kcompactd0]
+root       390  0.0  0.0      0     0 ?        S<   avril17   0:00 [led_workqueue]
+root        39  0.0  0.0      0     0 ?        SN   avril17   0:00 [ksmd]
+root        40  0.0  0.0      0     0 ?        SN   avril17   0:00 [khugepaged]
+root         4  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:0H]
+root        41  0.0  0.0      0     0 ?        S<   avril17   0:00 [crypto]
+root        42  0.0  0.0      0     0 ?        S<   avril17   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   avril17   0:00 [kblockd]
+root        46  0.0  0.0      0     0 ?        S<   avril17   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S<   avril17   0:00 [md]
+root        48  0.0  0.0      0     0 ?        S<   avril17   0:00 [edac-poller]
+root        49  0.0  0.0      0     0 ?        S<   avril17   0:00 [devfreq_wq]
+root        50  0.0  0.0      0     0 ?        S<   avril17   0:00 [watchdogd]
+root        53  0.0  0.0      0     0 ?        S    avril17   0:00 [kauditd]
+root        54  0.0  0.0      0     0 ?        S    avril17   0:01 [kswapd0]
+root        55  0.0  0.0      0     0 ?        S    avril17   0:00 [ecryptfs-kthrea]
+root         6  0.0  0.0      0     0 ?        S<   avril17   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/0]
+root       731  0.0  0.1 173476  6680 ?        Ssl  avril17   0:09 /usr/sbin/thermald --no-daemon --dbus-enable
+root       735  0.0  0.0   4396  1192 ?        Ss   avril17   0:00 /usr/sbin/acpid
+root       744  0.0  0.0  28628  2500 ?        Ss   avril17   0:00 /lib/systemd/systemd-logind
+root       750  0.0  0.0  36076  2784 ?        Ss   avril17   0:00 /usr/sbin/cron -f
+root       754  0.0  0.1 298644  7724 ?        Ssl  avril17   0:00 /usr/lib/accountsservice/accounts-daemon
+root      7605  0.0  0.2 100920  8084 ?        Ss   07:35   0:00 /usr/sbin/cupsd -l
+root      7606  0.0  0.3 280332 13420 ?        Ssl  07:35   0:01 /usr/sbin/cups-browsed
+root       782  0.0  0.3 611400 13948 ?        Ssl  avril17   0:10 /usr/sbin/NetworkManager --no-daemon
+root       783  0.0  0.0  32068  3440 ?        Ss   avril17   0:00 /usr/lib/bluetooth/bluetoothd
+root       787  0.0  0.1 361692  5384 ?        Ssl  avril17   0:00 /usr/lib/snapd/snapd
+root         8  0.0  0.0      0     0 ?        S    avril17   0:03 [rcu_sched]
+root      8366  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/0:2]
+root      8386  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/1:0]
+root       864  0.0  0.0  19500  2076 ?        Ss   avril17   0:01 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       887  0.0  0.2 304712  9856 ?        Ssl  avril17   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      8982  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/1:2]
+root      8990  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/3:2]
+root      8993  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/2:0]
+root         9  0.0  0.0      0     0 ?        S    avril17   0:00 [rcu_bh]
+root       903  0.0  0.1 292196  6992 ?        SLsl avril17   0:00 /usr/sbin/lightdm
+root      9094  0.0  0.0      0     0 ?        S<   10:40   0:00 [kworker/u9:0]
+root       934  0.2  4.4 636172 175108 tty7    Ssl+ avril17   3:57 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       944  0.0  0.1  44152  5948 ?        Ss   avril17   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       957  0.0  0.0  23004  1476 tty1     Ss+  avril17   0:00 /sbin/agetty --noclear tty1 linux
+root        97  0.0  0.0      0     0 ?        S<   avril17   0:00 [kthrotld]
+root        98  0.0  0.0      0     0 ?        S<   avril17   0:00 [acpi_thermal_pm]
+root      9854  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/2:1]
+root      9857  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/3:1]
+root      9912  0.0  0.0      0     0 ?        S    21:54   0:00 [irq/48-mei_me]
+root      9913  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:30]
+root      9914  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:31]
+root      9917  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:34]
+root      9918  0.0  0.0      0     0 ?        D    21:54   0:00 [kworker/u8:38]
+root      9924  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/0:0]
+rtkit     1086  0.0  0.0 183544  2576 ?        SNsl avril17   0:00 /usr/lib/rtkit/rtkit-daemon
+syslog     730  0.0  0.0 256392  2328 ?        Ssl  avril17   0:00 /usr/sbin/rsyslogd -n
+systemd+   603  0.0  0.0 102384  2452 ?        Ssl  avril17   0:00 /lib/systemd/systemd-timesyncd
+titanre+ 10222  0.0  0.1  30756  6228 pts/19   Ss   21:58   0:00 bash
+titanre+ 10406 22.0  0.2  38924 11660 pts/19   R+   22:02   0:00 python3 projet.py
+titanre+ 10448  0.0  0.0  44524  3316 pts/19   R+   22:02   0:00 ps -aux
+titanre+ 10449  0.0  0.0  29024   788 pts/19   S+   22:02   0:00 sort -k1n
+titanre+ 10450  0.0  0.0  14384   660 pts/19   S+   22:02   0:00 tr 'a-z' 'A-Z'
+titanre+ 10451  0.0  0.0  14684   652 pts/19   S+   22:02   0:00 tee toto.txt
+titanre+ 10452  0.0  0.0  14688   652 pts/19   S+   22:02   0:00 wc -c
+titanre+  1201  0.0  0.0  45276  3468 ?        Ss   avril17   0:00 /lib/systemd/systemd --user
+titanre+  1202  0.0  0.0  63360   388 ?        S    avril17   0:00 (sd-pam)
+titanre+  1265  0.0  0.1 212612  5412 ?        Sl   avril17   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+titanre+  1275  0.0  0.1  53736  4444 ?        Ss   avril17   0:00 /sbin/upstart --user
+titanre+  1500  0.0  0.0  39996   100 ?        S    avril17   0:00 upstart-udev-bridge --daemon --user
+titanre+  1508  0.0  0.1  44188  4140 ?        Ss   avril17   0:04 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Fkyzy3q9y8
+titanre+  1520  0.0  0.1  93412  5644 ?        Ss   avril17   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+titanre+  1563  0.0  0.2 368948 11372 ?        Ssl  avril17   0:07 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+titanre+  1568  0.0  0.0  39900   140 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --system --user --bus-name system
+titanre+  1570  0.0  0.0  39976  1352 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+titanre+  1575  0.0  1.3 566396 52640 ?        Ssl  avril17   0:04 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+titanre+  1578  0.0  0.0  48544  1656 ?        S    avril17   0:00 upstart-file-bridge --daemon --user
+titanre+  1579  0.0  0.1 281780  5428 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd
+titanre+  1585  0.0  0.1 419964  5980 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+titanre+  1589  0.0  0.1 284848  7200 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-dconf
+titanre+  1592  0.0  0.4 487556 18092 ?        Sl   avril17   0:02 /usr/lib/ibus/ibus-ui-gtk3
+titanre+  1596  0.0  0.3 437828 15080 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+titanre+  1610  0.0  0.1 353672  6600 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+titanre+  1617  0.0  0.0  43024  3572 ?        S    avril17   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+titanre+  1620  0.0  0.1 206864  5356 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+titanre+  1626  0.0  0.1 208976  7064 ?        Sl   avril17   0:01 /usr/lib/ibus/ibus-engine-simple
+titanre+  1634  0.0  0.0 173876   260 ?        Ss   avril17   0:00 gpg-agent --homedir /home/titanreotra/.gnupg --use-standard-socket --daemon
+titanre+  1644  0.0  0.8 668112 32592 ?        Ssl  avril17   0:04 /usr/lib/x86_64-linux-gnu/hud/hud-service
+titanre+  1646  0.0  0.5 997540 22524 ?        Ssl  avril17   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+titanre+  1658  0.0  0.2 642628 10300 ?        Ssl  avril17   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+titanre+  1670  0.0  1.3 673828 52692 ?        Ssl  avril17   0:13 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+titanre+  1701  0.0  0.1 178760  4564 ?        Sl   avril17   0:00 /usr/lib/dconf/dconf-service
+titanre+  1714  0.0  0.1 377436  7500 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+titanre+  1715  0.0  0.1 356416  7296 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+titanre+  1718  0.0  0.1 449404  7796 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+titanre+  1723  0.0  0.2 1247928 10500 ?       Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+titanre+  1724  0.0  0.4 659228 17552 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+titanre+  1725  0.0  0.2 683224  8876 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+titanre+  1726  0.0  0.4 557336 18008 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+titanre+  1731  0.0  0.1 643684  7244 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+titanre+  1733  0.0  0.2 403148  8800 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+titanre+  1766  0.0  0.3 1121536 13088 ?       Sl   avril17   0:00 /usr/lib/evolution/evolution-source-registry
+titanre+  1768  0.0  0.2 348572  9752 ?        Sl   avril17   0:02 /usr/lib/geoclue/geoclue-master
+titanre+  1777  0.0  0.1 516184  6408 ?        S<l  avril17   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+titanre+  1781  0.0  0.0  22368   620 ?        S    avril17   0:00 syndaemon -i 1.0 -t -K -R
+titanre+  1790  0.4  5.1 1654748 203428 ?      Ssl  avril17   6:15 compiz
+titanre+  1807  0.0  0.3 512420 13256 ?        Sl   avril17   0:02 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+titanre+  1826  0.0  1.2 877256 49940 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory
+titanre+  1838  0.0  0.3 439208 15468 ?        Sl   avril17   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+titanre+  1839  0.0  1.2 913208 47488 ?        Sl   avril17   0:06 nautilus -n
+titanre+  1841  0.0  1.5 1066484 62272 ?       Sl   avril17   0:15 nm-applet
+titanre+  1843  0.0  0.4 584892 17100 ?        Sl   avril17   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+titanre+  1847  0.0  3.0 1371876 120560 ?      SLl  avril17   0:06 /usr/bin/gnome-software --gapplication-service
+titanre+  1864  0.0  0.2 377648  9476 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+titanre+  1883  0.0  0.2 410872  8280 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+titanre+  1894  0.0  0.1 266752  4320 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+titanre+  1906  0.0  0.1 264788  4652 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+titanre+  1915  0.0  0.1 279084  5752 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+titanre+  1923  0.0  1.1 830148 44292 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/2
+titanre+  1934  0.0  0.3 704764 12144 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory
+titanre+  1937  0.0  1.1 945600 44248 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/3
+titanre+  1953  0.0  0.2 919576 10660 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1934x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1934/2
+titanre+  1981  0.0  0.2 371156  8404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+titanre+  1997  0.0  0.1 193304  5440 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-metadata
+titanre+  2022  0.0  0.3 654656 13980 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+titanre+  2032  0.0  0.4 659332 17892 ?        Sl   avril17   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+titanre+  2034  0.0  0.3 720024 12208 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+titanre+  2045  0.0  0.0   4504   844 ?        S    avril17   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+titanre+  2049  0.0  0.2 423564  8748 ?        Sl   avril17   0:00 /usr/bin/zeitgeist-daemon
+titanre+  2056  0.0  0.3 321868 12220 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+titanre+  2058  0.0  0.3 448908 12292 ?        Sl   avril17   0:00 zeitgeist-datahub
+titanre+  2104  0.0  0.7 674372 30928 ?        Sl   avril17   0:04 /usr/lib/gnome-terminal/gnome-terminal-server
+titanre+  2110  0.0  0.1  30040  5336 pts/17   Ss+  avril17   0:00 bash
+titanre+  2236  0.0  0.5 534188 20576 ?        Sl   avril17   0:00 update-notifier
+titanre+  2325  0.0  0.2 448708  8316 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+titanre+  2397  0.0  2.2 1072076 90328 ?       Ssl  avril17   0:27 /opt/sublime_text/sublime_text .
+titanre+  2412  0.0  0.3 127228 14904 ?        Sl   avril17   0:01 /opt/sublime_text/plugin_host 2397
+titanre+  3164  0.6  8.6 2630120 340676 ?      Sl   avril17   9:06 /usr/lib/firefox/firefox
+titanre+  3217  0.0  3.1 1868172 123476 ?      Sl   avril17   0:28 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3340  0.3  9.2 2370732 365700 ?      Sl   avril17   4:42 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3371  0.5  4.4 1991448 173764 ?      Sl   avril17   8:12 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3497  0.6  5.4 2183212 214916 ?      Sl   avril17   9:30 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3656  0.0  0.1  29860  4980 pts/2    Ss+  avril17   0:00 bash
+titanre+  3800  0.0  0.1  29832  5028 pts/18   Ss+  avril17   0:00 bash
+titanre+  4011  0.3  5.4 1776968 215192 ?      Rl   avril17   4:39 /usr/share/atom/atom
+titanre+  4014  0.0  0.3 395332 14220 ?        S    avril17   0:00 /usr/share/atom/atom --type=zygote --no-sandbox
+titanre+  4025  0.0  0.1  68584  5164 ?        S    avril17   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+titanre+  4045  0.1  2.7 502092 109896 ?       Sl   avril17   1:51 /usr/share/atom/atom --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=1,7,23,61,74 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x161e --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --service-request-channel-token=09F5C527EA40FDDD0F83544716E7F49B
+titanre+  4062  0.1  4.2 1352308 166936 ?      Sl   avril17   2:26 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=3151ACD85E20DD4A3EBD693D011055BF --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3151ACD85E20DD4A3EBD693D011055BF --renderer-client-id=4 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4255  0.0  2.8 1157808 113148 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --renderer-client-id=6 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4303  0.0  4.5 1401428 181108 ?      Sl   avril17   0:55 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --renderer-client-id=8 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4487  0.0  2.8 1154736 113096 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=C235AF24A14537F4BA6B2914EF26DADD --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=C235AF24A14537F4BA6B2914EF26DADD --renderer-client-id=10 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4649  0.0  0.2 723872  8480 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+titanre+  4675  0.0  0.1 369092  6836 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+titanre+  5083  0.0  2.9 1178992 116752 ?      Sl   avril17   0:03 evince /home/titanreotra/Bureau/Algo1/Kouna2.pdf
+titanre+  5091  0.0  0.1 178496  4020 ?        Sl   avril17   0:00 /usr/lib/evince/evinced
+titanre+  6113  0.0  1.2 524480 48056 ?        Sl   06:41   0:03 /usr/lib/x86_64-linux-gnu/notify-osd
+titanre+  9584  0.0  0.9 665708 36052 ?        Sl   10:45   0:00 gedit /tmp/mozilla_titanreotra0/corr_anc_kounais.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+whoopsie   952  0.0  0.2 452208 10180 ?        Ssl  avril17   0:00 /usr/bin/whoopsie -f
+avahi      742  0.0  0.1  46720  5148 ?        Ss   avril17   0:07 avahi-daemon: running [titanreotra-UX305FA.local]
+avahi      764  0.0  0.0  44780    44 ?        S    avril17   0:00 avahi-daemon: chroot helper
+colord    1130  0.0  0.2 320880  9156 ?        Ssl  avril17   0:00 /usr/lib/colord/colord
+lp        7616  0.0  0.1  81376  5660 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7617  0.0  0.1  81376  5720 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7618  0.0  0.1  81244  5748 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        8697  0.0  0.1  81376  5596 ?        S    10:14   0:00 /usr/lib/cups/notifier/dbus dbus://
+message+   755  0.0  0.1  44448  4844 ?        Ss   avril17   0:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nobody    1290  0.0  0.0  59992  3468 ?        S    avril17   0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        10  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/0]
+root         1  0.0  0.1 185280  4924 ?        Ss   avril17   0:02 /sbin/init splash
+root     10022  0.0  0.0  16124  3552 ?        S    21:54   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-69ff31fd-feca-4559-83f1-fbfe360dbf30-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root      1023  0.0  0.1 230304  5188 ?        Sl   avril17   0:00 lightdm --session-child 12 19
+root       104  0.0  0.0      0     0 ?        S<   avril17   0:00 [ipv6_addrconf]
+root     10504  0.0  0.0      0     0 ?        S    22:03   0:00 [kworker/1:1]
+root        11  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/0]
+root      1103  0.0  0.2 354624  8300 ?        Ssl  avril17   0:01 /usr/lib/upower/upowerd
+root      1128  0.0  0.0      0     0 ?        S<   avril17   0:00 [krfcommd]
+root        12  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/1]
+root       133  0.0  0.0      0     0 ?        S<   avril17   0:00 [charger_manager]
+root        14  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:0H]
+root       182  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_0]
+root       183  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_0]
+root       184  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_1]
+root       185  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_1]
+root      1867  0.0  0.2 447936  9880 ?        Ssl  avril17   0:03 /usr/lib/udisks2/udisksd --no-debug
+root       187  0.0  0.0      0     0 ?        S    avril17   0:03 [i915/signal:0]
+root       188  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:1]
+root       189  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:2]
+root       190  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:4]
+root        19  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/2]
+root      1905  0.0  0.8 518928 32048 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root       194  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:1H]
+root       195  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:1H]
+root       196  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:1H]
+root        20  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/2]
+root         2  0.0  0.0      0     0 ?        S    avril17   0:00 [kthreadd]
+root        21  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/2]
+root       211  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:1H]
+root       219  0.0  0.0      0     0 ?        S    avril17   0:00 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   avril17   0:00 [ext4-rsv-conver]
+root        22  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/3]
+root       254  0.0  0.0  32232  3256 ?        Ss   avril17   0:00 /lib/systemd/systemd-journald
+root        26  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/3]
+root       282  0.0  0.0  45764  2804 ?        Ss   avril17   0:00 /lib/systemd/systemd-udevd
+root        30  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    avril17   0:00 [kdevtmpfs]
+root       311  0.0  0.0      0     0 ?        S<   avril17   0:00 [asus_wireless_w]
+root        32  0.0  0.0      0     0 ?        S<   avril17   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    avril17   0:00 [khungtaskd]
+root       352  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/u9:2]
+root       353  0.0  0.0      0     0 ?        S<   avril17   0:00 [cfg80211]
+root       354  0.0  0.0      0     0 ?        S    avril17   0:09 [irq/50-iwlwifi]
+root        36  0.0  0.0      0     0 ?        S    avril17   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        S<   avril17   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    avril17   0:00 [kcompactd0]
+root       390  0.0  0.0      0     0 ?        S<   avril17   0:00 [led_workqueue]
+root        39  0.0  0.0      0     0 ?        SN   avril17   0:00 [ksmd]
+root        40  0.0  0.0      0     0 ?        SN   avril17   0:00 [khugepaged]
+root         4  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:0H]
+root        41  0.0  0.0      0     0 ?        S<   avril17   0:00 [crypto]
+root        42  0.0  0.0      0     0 ?        S<   avril17   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   avril17   0:00 [kblockd]
+root        46  0.0  0.0      0     0 ?        S<   avril17   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S<   avril17   0:00 [md]
+root        48  0.0  0.0      0     0 ?        S<   avril17   0:00 [edac-poller]
+root        49  0.0  0.0      0     0 ?        S<   avril17   0:00 [devfreq_wq]
+root        50  0.0  0.0      0     0 ?        S<   avril17   0:00 [watchdogd]
+root        53  0.0  0.0      0     0 ?        S    avril17   0:00 [kauditd]
+root        54  0.0  0.0      0     0 ?        S    avril17   0:01 [kswapd0]
+root        55  0.0  0.0      0     0 ?        S    avril17   0:00 [ecryptfs-kthrea]
+root         6  0.0  0.0      0     0 ?        S<   avril17   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/0]
+root       731  0.0  0.1 173476  6680 ?        Ssl  avril17   0:09 /usr/sbin/thermald --no-daemon --dbus-enable
+root       735  0.0  0.0   4396  1192 ?        Ss   avril17   0:00 /usr/sbin/acpid
+root       744  0.0  0.0  28628  2500 ?        Ss   avril17   0:00 /lib/systemd/systemd-logind
+root       750  0.0  0.0  36076  2784 ?        Ss   avril17   0:00 /usr/sbin/cron -f
+root       754  0.0  0.1 298644  7724 ?        Ssl  avril17   0:00 /usr/lib/accountsservice/accounts-daemon
+root      7605  0.0  0.2 100920  7904 ?        Ss   07:35   0:00 /usr/sbin/cupsd -l
+root      7606  0.0  0.3 280332 12576 ?        Ssl  07:35   0:01 /usr/sbin/cups-browsed
+root       782  0.0  0.3 611400 13920 ?        Ssl  avril17   0:10 /usr/sbin/NetworkManager --no-daemon
+root       783  0.0  0.0  32068  3440 ?        Ss   avril17   0:00 /usr/lib/bluetooth/bluetoothd
+root       787  0.0  0.1 361692  5384 ?        Ssl  avril17   0:00 /usr/lib/snapd/snapd
+root         8  0.0  0.0      0     0 ?        S    avril17   0:03 [rcu_sched]
+root      8366  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/0:2]
+root      8386  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/1:0]
+root       864  0.0  0.0  19500  2076 ?        Ss   avril17   0:01 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       887  0.0  0.2 304712  9808 ?        Ssl  avril17   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      8982  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/1:2]
+root      8990  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/3:2]
+root      8993  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/2:0]
+root         9  0.0  0.0      0     0 ?        S    avril17   0:00 [rcu_bh]
+root       903  0.0  0.1 292196  6992 ?        SLsl avril17   0:00 /usr/sbin/lightdm
+root      9094  0.0  0.0      0     0 ?        S<   10:40   0:00 [kworker/u9:0]
+root       934  0.2  5.5 678672 220472 tty7    Ssl+ avril17   4:05 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       944  0.0  0.1  44152  5948 ?        Ss   avril17   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       957  0.0  0.0  23004  1476 tty1     Ss+  avril17   0:00 /sbin/agetty --noclear tty1 linux
+root        97  0.0  0.0      0     0 ?        S<   avril17   0:00 [kthrotld]
+root        98  0.0  0.0      0     0 ?        S<   avril17   0:00 [acpi_thermal_pm]
+root      9854  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/2:1]
+root      9857  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/3:1]
+root      9912  0.0  0.0      0     0 ?        S    21:54   0:00 [irq/48-mei_me]
+root      9913  0.0  0.0      0     0 ?        D    21:54   0:00 [kworker/u8:30]
+root      9914  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:31]
+root      9918  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:38]
+root      9924  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/0:0]
+rtkit     1086  0.0  0.0 183544  2576 ?        SNsl avril17   0:00 /usr/lib/rtkit/rtkit-daemon
+syslog     730  0.0  0.0 256392  2192 ?        Ssl  avril17   0:00 /usr/sbin/rsyslogd -n
+systemd+   603  0.0  0.0 102384  2452 ?        Ssl  avril17   0:00 /lib/systemd/systemd-timesyncd
+titanre+ 10222  0.0  0.1  30756  6228 pts/19   Rs+  21:58   0:00 bash
+titanre+ 10561  0.0  0.0  44524  3340 pts/19   R    22:04   0:00 ps -aux
+titanre+ 10562  0.0  0.0  29024   820 pts/19   S    22:04   0:00 sort -k1n
+titanre+  1201  0.0  0.0  45276  3272 ?        Ss   avril17   0:00 /lib/systemd/systemd --user
+titanre+  1202  0.0  0.0  63360   388 ?        S    avril17   0:00 (sd-pam)
+titanre+  1265  0.0  0.1 212612  5412 ?        Sl   avril17   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+titanre+  1275  0.0  0.1  53736  4444 ?        Ss   avril17   0:00 /sbin/upstart --user
+titanre+  1500  0.0  0.0  39996   100 ?        S    avril17   0:00 upstart-udev-bridge --daemon --user
+titanre+  1508  0.0  0.1  44188  4140 ?        Ss   avril17   0:04 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Fkyzy3q9y8
+titanre+  1520  0.0  0.1  93412  5644 ?        Ss   avril17   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+titanre+  1563  0.0  0.2 368948 11372 ?        Ssl  avril17   0:07 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+titanre+  1568  0.0  0.0  39900   140 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --system --user --bus-name system
+titanre+  1570  0.0  0.0  39976  1352 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+titanre+  1575  0.0  1.3 566396 52640 ?        Ssl  avril17   0:04 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+titanre+  1578  0.0  0.0  48544  1652 ?        S    avril17   0:00 upstart-file-bridge --daemon --user
+titanre+  1579  0.0  0.1 281780  5408 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd
+titanre+  1585  0.0  0.1 419964  5980 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+titanre+  1589  0.0  0.1 284848  7200 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-dconf
+titanre+  1592  0.0  0.4 487556 18088 ?        Sl   avril17   0:02 /usr/lib/ibus/ibus-ui-gtk3
+titanre+  1596  0.0  0.3 437828 15080 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+titanre+  1610  0.0  0.1 353672  6588 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+titanre+  1617  0.0  0.0  43024  3572 ?        S    avril17   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+titanre+  1620  0.0  0.1 206864  5356 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+titanre+  1626  0.0  0.1 208976  7056 ?        Sl   avril17   0:01 /usr/lib/ibus/ibus-engine-simple
+titanre+  1634  0.0  0.0 173876   260 ?        Ss   avril17   0:00 gpg-agent --homedir /home/titanreotra/.gnupg --use-standard-socket --daemon
+titanre+  1644  0.0  0.8 668112 32592 ?        Ssl  avril17   0:05 /usr/lib/x86_64-linux-gnu/hud/hud-service
+titanre+  1646  0.0  0.5 997540 22496 ?        Ssl  avril17   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+titanre+  1658  0.0  0.2 642628 10140 ?        Ssl  avril17   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+titanre+  1670  0.0  1.3 673828 52268 ?        Ssl  avril17   0:13 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+titanre+  1701  0.0  0.1 178760  4564 ?        Sl   avril17   0:00 /usr/lib/dconf/dconf-service
+titanre+  1714  0.0  0.1 377436  7500 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+titanre+  1715  0.0  0.1 356416  7296 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+titanre+  1718  0.0  0.1 449404  7792 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+titanre+  1723  0.0  0.2 1247928 9924 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+titanre+  1724  0.0  0.4 659228 16184 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+titanre+  1725  0.0  0.2 683224  8860 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+titanre+  1726  0.0  0.4 557336 17672 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+titanre+  1731  0.0  0.1 643684  7244 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+titanre+  1733  0.0  0.2 403148  8800 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+titanre+  1766  0.0  0.2 1121536 10840 ?       Sl   avril17   0:00 /usr/lib/evolution/evolution-source-registry
+titanre+  1768  0.0  0.2 348572  9696 ?        Sl   avril17   0:02 /usr/lib/geoclue/geoclue-master
+titanre+  1777  0.0  0.1 516184  5800 ?        S<l  avril17   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+titanre+  1781  0.0  0.0  22368   620 ?        S    avril17   0:00 syndaemon -i 1.0 -t -K -R
+titanre+  1790  0.4  5.0 1654824 198092 ?      Ssl  avril17   6:27 compiz
+titanre+  1807  0.0  0.3 512420 12656 ?        Sl   avril17   0:02 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+titanre+  1826  0.0  1.1 877256 44908 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory
+titanre+  1838  0.0  0.3 439208 15468 ?        Sl   avril17   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+titanre+  1839  0.0  1.1 913208 46592 ?        Sl   avril17   0:06 nautilus -n
+titanre+  1841  0.0  1.5 1066484 62252 ?       Sl   avril17   0:15 nm-applet
+titanre+  1843  0.0  0.4 584892 17016 ?        Sl   avril17   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+titanre+  1847  0.0  3.0 1371876 120532 ?      SLl  avril17   0:06 /usr/bin/gnome-software --gapplication-service
+titanre+  1864  0.0  0.2 377648  9404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+titanre+  1883  0.0  0.2 410872  8268 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+titanre+  1894  0.0  0.1 266752  4320 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+titanre+  1906  0.0  0.1 264788  4652 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+titanre+  1915  0.0  0.1 279084  5752 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+titanre+  1923  0.0  1.1 830148 44264 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/2
+titanre+  1934  0.0  0.3 704764 12104 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory
+titanre+  1937  0.0  1.1 945600 44212 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/3
+titanre+  1953  0.0  0.2 919576 10620 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1934x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1934/2
+titanre+  1981  0.0  0.2 371156  8404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+titanre+  1997  0.0  0.1 193304  5404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-metadata
+titanre+  2022  0.0  0.3 654656 13952 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+titanre+  2032  0.0  0.4 659332 17892 ?        Sl   avril17   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+titanre+  2034  0.0  0.3 720024 12152 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+titanre+  2045  0.0  0.0   4504   844 ?        S    avril17   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+titanre+  2049  0.0  0.2 423564  8708 ?        Sl   avril17   0:00 /usr/bin/zeitgeist-daemon
+titanre+  2056  0.0  0.3 321868 12192 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+titanre+  2058  0.0  0.3 448908 12264 ?        Sl   avril17   0:00 zeitgeist-datahub
+titanre+  2104  0.0  0.7 674372 30928 ?        Sl   avril17   0:04 /usr/lib/gnome-terminal/gnome-terminal-server
+titanre+  2110  0.0  0.1  30040  5336 pts/17   Ss+  avril17   0:00 bash
+titanre+  2236  0.0  0.5 534188 20560 ?        Sl   avril17   0:00 update-notifier
+titanre+  2325  0.0  0.2 448708  8312 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+titanre+  2397  0.0  2.5 1072076 100348 ?      Ssl  avril17   0:34 /opt/sublime_text/sublime_text .
+titanre+  2412  0.0  0.3 127228 14848 ?        Sl   avril17   0:01 /opt/sublime_text/plugin_host 2397
+titanre+  3164  0.6  9.8 2663384 386292 ?      Sl   avril17   9:24 /usr/lib/firefox/firefox
+titanre+  3217  0.0  3.5 1882568 137984 ?      Sl   avril17   0:31 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3340  0.3 10.6 2409376 419264 ?      Sl   avril17   5:08 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3371  0.5  4.4 1991448 173784 ?      Sl   avril17   8:12 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3497  0.6  5.4 2183212 213472 ?      Sl   avril17   9:31 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3656  0.0  0.1  29860  4980 pts/2    Ss+  avril17   0:00 bash
+titanre+  3800  0.0  0.1  29832  5028 pts/18   Ss+  avril17   0:00 bash
+titanre+  4011  0.3  5.4 1776456 214696 ?      Sl   avril17   4:41 /usr/share/atom/atom
+titanre+  4014  0.0  0.3 395332 14220 ?        S    avril17   0:00 /usr/share/atom/atom --type=zygote --no-sandbox
+titanre+  4025  0.0  0.1  68584  5160 ?        S    avril17   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+titanre+  4045  0.1  2.3 502092 92440 ?        Sl   avril17   1:51 /usr/share/atom/atom --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=1,7,23,61,74 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x161e --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --service-request-channel-token=09F5C527EA40FDDD0F83544716E7F49B
+titanre+  4062  0.1  4.2 1352308 166956 ?      Sl   avril17   2:26 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=3151ACD85E20DD4A3EBD693D011055BF --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3151ACD85E20DD4A3EBD693D011055BF --renderer-client-id=4 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4255  0.0  2.8 1157808 113148 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --renderer-client-id=6 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4303  0.0  4.5 1401428 181088 ?      Sl   avril17   0:55 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --renderer-client-id=8 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4487  0.0  2.8 1154736 113096 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=C235AF24A14537F4BA6B2914EF26DADD --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=C235AF24A14537F4BA6B2914EF26DADD --renderer-client-id=10 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4649  0.0  0.2 723872  8460 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+titanre+  4675  0.0  0.1 369092  6836 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+titanre+  5083  0.0  2.9 1178992 116752 ?      Sl   avril17   0:03 evince /home/titanreotra/Bureau/Algo1/Kouna2.pdf
+titanre+  5091  0.0  0.1 178496  4020 ?        Sl   avril17   0:00 /usr/lib/evince/evinced
+titanre+  6113  0.0  1.2 524480 48044 ?        Sl   06:41   0:03 /usr/lib/x86_64-linux-gnu/notify-osd
+titanre+  9584  0.0  0.9 665708 35600 ?        Sl   10:45   0:00 gedit /tmp/mozilla_titanreotra0/corr_anc_kounais.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+whoopsie   952  0.0  0.2 452208 10136 ?        Ssl  avril17   0:00 /usr/bin/whoopsie -f
+avahi      742  0.0  0.1  46720  5148 ?        Ss   avril17   0:07 avahi-daemon: running [titanreotra-UX305FA.local]
+avahi      764  0.0  0.0  44780    44 ?        S    avril17   0:00 avahi-daemon: chroot helper
+colord    1130  0.0  0.2 320880  9156 ?        Ssl  avril17   0:00 /usr/lib/colord/colord
+lp        7616  0.0  0.1  81376  5660 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7617  0.0  0.1  81376  5720 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        7618  0.0  0.1  81244  5748 ?        S    07:35   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp        8697  0.0  0.1  81376  5596 ?        S    10:14   0:00 /usr/lib/cups/notifier/dbus dbus://
+message+   755  0.0  0.1  44448  4844 ?        Ss   avril17   0:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+nobody    1290  0.0  0.0  59992  3468 ?        S    avril17   0:01 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        10  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/0]
+root         1  0.0  0.1 185280  4924 ?        Ss   avril17   0:02 /sbin/init splash
+root     10022  0.0  0.0  16124  3552 ?        S    21:54   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-69ff31fd-feca-4559-83f1-fbfe360dbf30-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root      1023  0.0  0.1 230304  5188 ?        Sl   avril17   0:00 lightdm --session-child 12 19
+root       104  0.0  0.0      0     0 ?        S<   avril17   0:00 [ipv6_addrconf]
+root     10504  0.0  0.0      0     0 ?        S    22:03   0:00 [kworker/1:1]
+root        11  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/0]
+root      1103  0.0  0.2 354624  8300 ?        Ssl  avril17   0:01 /usr/lib/upower/upowerd
+root      1128  0.0  0.0      0     0 ?        S<   avril17   0:00 [krfcommd]
+root        12  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/1]
+root       133  0.0  0.0      0     0 ?        S<   avril17   0:00 [charger_manager]
+root        14  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:0H]
+root       182  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_0]
+root       183  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_0]
+root       184  0.0  0.0      0     0 ?        S    avril17   0:00 [scsi_eh_1]
+root       185  0.0  0.0      0     0 ?        S<   avril17   0:00 [scsi_tmf_1]
+root      1867  0.0  0.2 447936  9880 ?        Ssl  avril17   0:03 /usr/lib/udisks2/udisksd --no-debug
+root       187  0.0  0.0      0     0 ?        S    avril17   0:03 [i915/signal:0]
+root       188  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:1]
+root       189  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:2]
+root       190  0.0  0.0      0     0 ?        S    avril17   0:00 [i915/signal:4]
+root        19  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/2]
+root      1905  0.0  0.8 518928 32048 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root       194  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/1:1H]
+root       195  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:1H]
+root       196  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:1H]
+root        20  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/2]
+root         2  0.0  0.0      0     0 ?        S    avril17   0:00 [kthreadd]
+root        21  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/2]
+root       211  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:1H]
+root       219  0.0  0.0      0     0 ?        S    avril17   0:00 [jbd2/sda5-8]
+root       220  0.0  0.0      0     0 ?        S<   avril17   0:00 [ext4-rsv-conver]
+root        22  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    avril17   0:00 [cpuhp/3]
+root       254  0.0  0.0  32232  3256 ?        Ss   avril17   0:00 /lib/systemd/systemd-journald
+root        26  0.0  0.0      0     0 ?        S    avril17   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    avril17   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/3]
+root       282  0.0  0.0  45764  2804 ?        Ss   avril17   0:00 /lib/systemd/systemd-udevd
+root        30  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    avril17   0:00 [kdevtmpfs]
+root       311  0.0  0.0      0     0 ?        S<   avril17   0:00 [asus_wireless_w]
+root        32  0.0  0.0      0     0 ?        S<   avril17   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    avril17   0:00 [khungtaskd]
+root       352  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/u9:2]
+root       353  0.0  0.0      0     0 ?        S<   avril17   0:00 [cfg80211]
+root       354  0.0  0.0      0     0 ?        S    avril17   0:09 [irq/50-iwlwifi]
+root        36  0.0  0.0      0     0 ?        S    avril17   0:00 [oom_reaper]
+root        37  0.0  0.0      0     0 ?        S<   avril17   0:00 [writeback]
+root        38  0.0  0.0      0     0 ?        S    avril17   0:00 [kcompactd0]
+root       390  0.0  0.0      0     0 ?        S<   avril17   0:00 [led_workqueue]
+root        39  0.0  0.0      0     0 ?        SN   avril17   0:00 [ksmd]
+root        40  0.0  0.0      0     0 ?        SN   avril17   0:00 [khugepaged]
+root         4  0.0  0.0      0     0 ?        S<   avril17   0:00 [kworker/0:0H]
+root        41  0.0  0.0      0     0 ?        S<   avril17   0:00 [crypto]
+root        42  0.0  0.0      0     0 ?        S<   avril17   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   avril17   0:00 [kblockd]
+root        46  0.0  0.0      0     0 ?        S<   avril17   0:00 [ata_sff]
+root        47  0.0  0.0      0     0 ?        S<   avril17   0:00 [md]
+root        48  0.0  0.0      0     0 ?        S<   avril17   0:00 [edac-poller]
+root        49  0.0  0.0      0     0 ?        S<   avril17   0:00 [devfreq_wq]
+root        50  0.0  0.0      0     0 ?        S<   avril17   0:00 [watchdogd]
+root        53  0.0  0.0      0     0 ?        S    avril17   0:00 [kauditd]
+root        54  0.0  0.0      0     0 ?        S    avril17   0:01 [kswapd0]
+root        55  0.0  0.0      0     0 ?        S    avril17   0:00 [ecryptfs-kthrea]
+root         6  0.0  0.0      0     0 ?        S<   avril17   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    avril17   0:00 [ksoftirqd/0]
+root       731  0.0  0.1 173476  6680 ?        Ssl  avril17   0:09 /usr/sbin/thermald --no-daemon --dbus-enable
+root       735  0.0  0.0   4396  1192 ?        Ss   avril17   0:00 /usr/sbin/acpid
+root       744  0.0  0.0  28628  2500 ?        Ss   avril17   0:00 /lib/systemd/systemd-logind
+root       750  0.0  0.0  36076  2784 ?        Ss   avril17   0:00 /usr/sbin/cron -f
+root       754  0.0  0.1 298644  7724 ?        Ssl  avril17   0:00 /usr/lib/accountsservice/accounts-daemon
+root      7605  0.0  0.2 100920  7904 ?        Ss   07:35   0:00 /usr/sbin/cupsd -l
+root      7606  0.0  0.3 280332 12576 ?        Ssl  07:35   0:01 /usr/sbin/cups-browsed
+root       782  0.0  0.3 611400 13920 ?        Ssl  avril17   0:10 /usr/sbin/NetworkManager --no-daemon
+root       783  0.0  0.0  32068  3440 ?        Ss   avril17   0:00 /usr/lib/bluetooth/bluetoothd
+root       787  0.0  0.1 361692  5384 ?        Ssl  avril17   0:00 /usr/lib/snapd/snapd
+root         8  0.0  0.0      0     0 ?        S    avril17   0:03 [rcu_sched]
+root      8366  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/0:2]
+root      8386  0.0  0.0      0     0 ?        S    08:01   0:00 [kworker/1:0]
+root       864  0.0  0.0  19500  2076 ?        Ss   avril17   0:01 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       887  0.0  0.2 304712  9808 ?        Ssl  avril17   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      8982  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/1:2]
+root      8990  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/3:2]
+root      8993  0.0  0.0      0     0 ?        S    10:20   0:00 [kworker/2:0]
+root         9  0.0  0.0      0     0 ?        S    avril17   0:00 [rcu_bh]
+root       903  0.0  0.1 292196  6992 ?        SLsl avril17   0:00 /usr/sbin/lightdm
+root      9094  0.0  0.0      0     0 ?        S<   10:40   0:00 [kworker/u9:0]
+root       934  0.2  5.5 678668 220492 tty7    Ssl+ avril17   4:05 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       944  0.0  0.1  44152  5948 ?        Ss   avril17   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       957  0.0  0.0  23004  1476 tty1     Ss+  avril17   0:00 /sbin/agetty --noclear tty1 linux
+root        97  0.0  0.0      0     0 ?        S<   avril17   0:00 [kthrotld]
+root        98  0.0  0.0      0     0 ?        S<   avril17   0:00 [acpi_thermal_pm]
+root      9854  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/2:1]
+root      9857  0.0  0.0      0     0 ?        S    10:48   0:00 [kworker/3:1]
+root      9912  0.0  0.0      0     0 ?        S    21:54   0:00 [irq/48-mei_me]
+root      9913  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:30]
+root      9914  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/u8:31]
+root      9918  0.0  0.0      0     0 ?        D    21:54   0:00 [kworker/u8:38]
+root      9924  0.0  0.0      0     0 ?        S    21:54   0:00 [kworker/0:0]
+rtkit     1086  0.0  0.0 183544  2576 ?        SNsl avril17   0:00 /usr/lib/rtkit/rtkit-daemon
+syslog     730  0.0  0.0 256392  2192 ?        Ssl  avril17   0:00 /usr/sbin/rsyslogd -n
+systemd+   603  0.0  0.0 102384  2452 ?        Ssl  avril17   0:00 /lib/systemd/systemd-timesyncd
+titanre+ 10222  0.0  0.1  30756  6228 pts/19   Ss   21:58   0:00 bash
+titanre+ 10575  0.0  0.2  38928 11612 pts/19   R+   22:04   0:00 python3 projet.py
+titanre+ 10617  0.0  0.0  44524  3456 pts/19   R+   22:04   0:00 ps -aux
+titanre+ 10618  0.0  0.0  29024   772 pts/19   S+   22:04   0:00 sort -k1n
+titanre+ 10619  0.0  0.0  14384   816 pts/19   S+   22:04   0:00 tr 'a-z' 'A-Z'
+titanre+ 10620  0.0  0.0  14684   808 pts/19   S+   22:04   0:00 tee toto.txt
+titanre+ 10621  0.0  0.0  14688   684 pts/19   S+   22:04   0:00 wc -c
+titanre+  1201  0.0  0.0  45276  3272 ?        Ss   avril17   0:00 /lib/systemd/systemd --user
+titanre+  1202  0.0  0.0  63360   388 ?        S    avril17   0:00 (sd-pam)
+titanre+  1265  0.0  0.1 212612  5412 ?        Sl   avril17   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+titanre+  1275  0.0  0.1  53736  4444 ?        Ss   avril17   0:00 /sbin/upstart --user
+titanre+  1500  0.0  0.0  39996   100 ?        S    avril17   0:00 upstart-udev-bridge --daemon --user
+titanre+  1508  0.0  0.1  44188  4140 ?        Ss   avril17   0:04 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Fkyzy3q9y8
+titanre+  1520  0.0  0.1  93412  5644 ?        Ss   avril17   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+titanre+  1563  0.0  0.2 368948 11372 ?        Ssl  avril17   0:07 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+titanre+  1568  0.0  0.0  39900   140 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --system --user --bus-name system
+titanre+  1570  0.0  0.0  39976  1352 ?        S    avril17   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+titanre+  1575  0.0  1.3 566396 52640 ?        Ssl  avril17   0:04 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+titanre+  1578  0.0  0.0  48544  1652 ?        S    avril17   0:00 upstart-file-bridge --daemon --user
+titanre+  1579  0.0  0.1 281780  5408 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd
+titanre+  1585  0.0  0.1 419964  5980 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+titanre+  1589  0.0  0.1 284848  7200 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-dconf
+titanre+  1592  0.0  0.4 487556 18088 ?        Sl   avril17   0:02 /usr/lib/ibus/ibus-ui-gtk3
+titanre+  1596  0.0  0.3 437828 15080 ?        Sl   avril17   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+titanre+  1610  0.0  0.1 353672  6588 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+titanre+  1617  0.0  0.0  43024  3572 ?        S    avril17   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+titanre+  1620  0.0  0.1 206864  5356 ?        Sl   avril17   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+titanre+  1626  0.0  0.1 208976  7056 ?        Sl   avril17   0:01 /usr/lib/ibus/ibus-engine-simple
+titanre+  1634  0.0  0.0 173876   260 ?        Ss   avril17   0:00 gpg-agent --homedir /home/titanreotra/.gnupg --use-standard-socket --daemon
+titanre+  1644  0.0  0.8 668112 32592 ?        Ssl  avril17   0:05 /usr/lib/x86_64-linux-gnu/hud/hud-service
+titanre+  1646  0.0  0.5 997540 22496 ?        Ssl  avril17   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+titanre+  1658  0.0  0.2 642628 10140 ?        Ssl  avril17   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+titanre+  1670  0.0  1.3 673828 52268 ?        Ssl  avril17   0:13 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+titanre+  1701  0.0  0.1 178760  4564 ?        Sl   avril17   0:00 /usr/lib/dconf/dconf-service
+titanre+  1714  0.0  0.1 377436  7500 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+titanre+  1715  0.0  0.1 356416  7296 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+titanre+  1718  0.0  0.1 449404  7792 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+titanre+  1723  0.0  0.2 1247928 9924 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+titanre+  1724  0.0  0.4 659228 16184 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+titanre+  1725  0.0  0.2 683224  8860 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+titanre+  1726  0.0  0.4 557336 17672 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+titanre+  1731  0.0  0.1 643684  7244 ?        Ssl  avril17   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+titanre+  1733  0.0  0.2 403148  8800 ?        Ssl  avril17   0:01 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+titanre+  1766  0.0  0.2 1121536 10840 ?       Sl   avril17   0:00 /usr/lib/evolution/evolution-source-registry
+titanre+  1768  0.0  0.2 348572  9696 ?        Sl   avril17   0:02 /usr/lib/geoclue/geoclue-master
+titanre+  1777  0.0  0.1 516184  5800 ?        S<l  avril17   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+titanre+  1781  0.0  0.0  22368   620 ?        S    avril17   0:00 syndaemon -i 1.0 -t -K -R
+titanre+  1790  0.4  5.0 1654824 198092 ?      Ssl  avril17   6:27 compiz
+titanre+  1807  0.0  0.3 512420 12656 ?        Sl   avril17   0:02 /usr/lib/x86_64-linux-gnu/ubuntu-geoip-provider
+titanre+  1826  0.0  1.1 877256 44908 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory
+titanre+  1838  0.0  0.3 439208 15468 ?        Sl   avril17   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+titanre+  1839  0.0  1.1 913208 46592 ?        Sl   avril17   0:06 nautilus -n
+titanre+  1841  0.0  1.5 1066484 62252 ?       Sl   avril17   0:15 nm-applet
+titanre+  1843  0.0  0.4 584892 17016 ?        Sl   avril17   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+titanre+  1847  0.0  3.0 1371876 120532 ?      SLl  avril17   0:06 /usr/bin/gnome-software --gapplication-service
+titanre+  1864  0.0  0.2 377648  9404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+titanre+  1883  0.0  0.2 410872  8268 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+titanre+  1894  0.0  0.1 266752  4320 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+titanre+  1906  0.0  0.1 264788  4652 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+titanre+  1915  0.0  0.1 279084  5752 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+titanre+  1923  0.0  1.1 830148 44264 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/2
+titanre+  1934  0.0  0.3 704764 12104 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory
+titanre+  1937  0.0  1.1 945600 44212 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1826x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1826/3
+titanre+  1953  0.0  0.2 919576 10620 ?        Sl   avril17   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1934x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1934/2
+titanre+  1981  0.0  0.2 371156  8404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+titanre+  1997  0.0  0.1 193304  5404 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-metadata
+titanre+  2022  0.0  0.3 654656 13952 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+titanre+  2032  0.0  0.4 659332 17892 ?        Sl   avril17   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+titanre+  2034  0.0  0.3 720024 12152 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+titanre+  2045  0.0  0.0   4504   844 ?        S    avril17   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+titanre+  2049  0.0  0.2 423564  8708 ?        Sl   avril17   0:00 /usr/bin/zeitgeist-daemon
+titanre+  2056  0.0  0.3 321868 12192 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+titanre+  2058  0.0  0.3 448908 12264 ?        Sl   avril17   0:00 zeitgeist-datahub
+titanre+  2104  0.0  0.7 674372 30928 ?        Sl   avril17   0:04 /usr/lib/gnome-terminal/gnome-terminal-server
+titanre+  2110  0.0  0.1  30040  5336 pts/17   Ss+  avril17   0:00 bash
+titanre+  2236  0.0  0.5 534188 20560 ?        Sl   avril17   0:00 update-notifier
+titanre+  2325  0.0  0.2 448708  8312 ?        Sl   avril17   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+titanre+  2397  0.0  2.5 1072076 100348 ?      Ssl  avril17   0:34 /opt/sublime_text/sublime_text .
+titanre+  2412  0.0  0.3 127228 14848 ?        Sl   avril17   0:01 /opt/sublime_text/plugin_host 2397
+titanre+  3164  0.6  9.8 2663384 386292 ?      Sl   avril17   9:24 /usr/lib/firefox/firefox
+titanre+  3217  0.0  3.5 1882568 137984 ?      Sl   avril17   0:31 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3340  0.3 10.6 2409376 419264 ?      Sl   avril17   5:08 /usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3371  0.5  4.4 1991448 173784 ?      Sl   avril17   8:12 /usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3497  0.6  5.4 2183212 213472 ?      Sl   avril17   9:31 /usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -intPrefs 6:50|7:-1|19:0|34:1000|42:20|43:5|44:10|51:0|57:128|58:10000|63:0|65:400|66:1|67:0|68:0|69:100|74:0|75:120|76:120|159:2|160:1|164:60|165:30|166:512000|175:5000|177:6|191:8192|192:524288|193:5|206:10000|227:24|228:32768|230:0|231:0|240:5|244:1048576|246:100|247:5000|249:600|250:4|251:1|260:2000|277:3|290:60000|308:300|309:30| -boolPrefs 1:0|2:0|4:1|5:0|24:1|27:0|28:1|29:1|31:1|32:1|33:1|36:0|37:0|38:1|41:1|45:1|46:0|47:0|48:1|49:1|50:1|52:0|55:1|56:1|59:0|60:0|61:0|62:0|64:0|70:1|71:1|72:0|73:1|77:1|78:1|79:0|80:0|81:1|82:1|83:0|84:1|87:0|88:0|91:1|92:1|96:1|97:1|98:0|99:1|100:0|101:0|103:0|104:0|105:1|106:1|107:1|110:1|111:1|112:1|113:1|114:1|115:0|116:0|117:0|119:0|120:1|121:1|122:0|123:0|124:0|125:0|127:1|128:0|129:1|130:1|131:1|132:0|133:0|134:1|135:1|136:1|137:1|138:0|139:1|140:1|141:1|142:1|143:1|144:1|145:0|146:1|147:1|148:0|149:1|150:0|152:0|153:0|154:0|155:1|156:1|157:1|158:1|161:1|162:0|172:0|173:0|174:1|178:0|180:1|181:0|182:1|184:1|186:0|187:0|190:0|194:1|195:0|196:1|197:1|198:0|201:1|205:1|207:1|208:0|210:1|213:0|225:0|226:0|229:1|232:0|234:1|235:1|237:1|238:0|245:1|248:1|253:0|254:0|255:0|256:1|257:1|258:0|259:1|264:0|267:1|268:1|269:1|270:1|271:1|272:0|273:0|279:1|282:0|283:0|284:1|285:1|286:0|287:1|288:1|289:1|291:0|292:0|294:0|303:1|304:1|305:0|306:0|307:0| -stringPrefs 3:7;release|151:0;|212:3;1.0|223:332;  ¼½¾ǃː??։֊׃״؉؊٪۔܁܂܃܄ᅟᅠ᜵           ???‐’․‧??????? ‹›⁁⁄⁒ ⅓⅔⅕⅖⅗⅘⅙⅚?⅜⅝⅞⅟∕∶⎮╱⧶⧸⫻⫽⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻　。〔〕〳゠ㅤ㈝㈞㎮㎯㏆㏟꞉︔︕︿﹝﹞?．／｡ﾠ???￼�|224:4;high| -schedulerPrefs 0001,2 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3164 true tab
+titanre+  3656  0.0  0.1  29860  4980 pts/2    Ss+  avril17   0:00 bash
+titanre+  3800  0.0  0.1  29832  5028 pts/18   Ss+  avril17   0:00 bash
+titanre+  4011  0.3  5.4 1776456 214696 ?      Sl   avril17   4:41 /usr/share/atom/atom
+titanre+  4014  0.0  0.3 395332 14220 ?        S    avril17   0:00 /usr/share/atom/atom --type=zygote --no-sandbox
+titanre+  4025  0.0  0.1  68584  5160 ?        S    avril17   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+titanre+  4045  0.1  2.3 502092 92440 ?        Sl   avril17   1:51 /usr/share/atom/atom --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workarounds=1,7,23,61,74 --disable-gl-extensions=GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent --gpu-vendor-id=0x8086 --gpu-device-id=0x161e --gpu-driver-vendor --gpu-driver-version --gpu-driver-date --service-request-channel-token=09F5C527EA40FDDD0F83544716E7F49B
+titanre+  4062  0.1  4.2 1352308 166956 ?      Sl   avril17   2:26 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=3151ACD85E20DD4A3EBD693D011055BF --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3151ACD85E20DD4A3EBD693D011055BF --renderer-client-id=4 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4255  0.0  2.8 1157808 113148 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=A13F2A2A1BCDF09AE4EDA05620B8E7A9 --renderer-client-id=6 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4303  0.0  4.5 1401428 181088 ?      Sl   avril17   0:55 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --disable-blink-features=Auxclick --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=4CC14E19E8D7A2D2EE58D21F5C4FB78E --renderer-client-id=8 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4487  0.0  2.8 1154736 113096 ?      Sl   avril17   0:00 /usr/share/atom/atom --type=renderer --enable-experimental-web-platform-features --no-sandbox --primordial-pipe-token=C235AF24A14537F4BA6B2914EF26DADD --lang=fr --app-path=/usr/share/atom/resources/app.asar --node-integration=true --webview-tag=true --no-sandbox --enable-pinch --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553;4,0,3553;4,1,3553;4,2,3553;4,3,3553;4,4,3553;4,5,3553;4,6,3553;4,7,3553;4,8,3553;4,9,3553;4,10,3553;4,11,3553;4,12,3553;4,13,3553;4,14,3553;4,15,3553 --disable-accelerated-video-decode --service-request-channel-token=C235AF24A14537F4BA6B2914EF26DADD --renderer-client-id=10 --shared-files=v8_natives_data:100,v8_snapshot_data:101
+titanre+  4649  0.0  0.2 723872  8460 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+titanre+  4675  0.0  0.1 369092  6836 ?        Sl   avril17   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/5
+titanre+  5083  0.0  2.9 1178992 116752 ?      Sl   avril17   0:03 evince /home/titanreotra/Bureau/Algo1/Kouna2.pdf
+titanre+  5091  0.0  0.1 178496  4020 ?        Sl   avril17   0:00 /usr/lib/evince/evinced
+titanre+  6113  0.0  1.2 524480 48044 ?        Sl   06:41   0:03 /usr/lib/x86_64-linux-gnu/notify-osd
+titanre+  9584  0.0  0.9 665708 35600 ?        Sl   10:45   0:00 gedit /tmp/mozilla_titanreotra0/corr_anc_kounais.txt
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+whoopsie   952  0.0  0.2 452208 10136 ?        Ssl  avril17   0:00 /usr/bin/whoopsie -f
