@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Frigoa une erreur
-=======
-Imprimer quelequehose
->>>>>>> rony1
+22

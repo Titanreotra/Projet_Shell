@@ -18,12 +18,12 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			os.dup2(re_re_fd, 0)
 			# os.close(re_re_fd)
 		elif entreeProcessus != 0 and sortiePrec:
+			os.close(sortiePrec)
 			log("je vais fermer sortieProcessus")
 			# os.close(sortiePrec)
 			afficherErreur("lire depuis " + str(entreeProcessus) + " au lieu de 0 pour " + commande)
 			os.dup2(entreeProcessus, 0)
-			os.close(entreeProcessus)
-			os.close(sortieProcessus)
+			#os.close(entreeProcessus)
 
 		re_wr_fd=None
 		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le pere
@@ -32,7 +32,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		if redirSortie:
 			# os.write(2, b'red sortie')
 			if redirSortie.isAppend():
-				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT | os.O_TRUNC)
+				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT )
 			else:
 				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
 
@@ -52,7 +52,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
 			os.close(1)
 			os.dup2(sortieProcessus,1)
-			os.close(sortieProcessus)
+			#os.close(sortieProcessus)
 			# os.close(entreeProcessus)
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
@@ -61,7 +61,7 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 			if redirErreur.isAppend():
 				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
 			else:
-				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT)
+				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
 			# os.write(2, b'rediriger erreur')
 			os.dup2(re_Er_fd,2)	
 
@@ -95,7 +95,6 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 		os.close(wfd) # fermeture du cote  ecriture du pipe
 		#afficherErreur("j attends le %d %s\n " %(pid, processus._cmd.getCommand()))
 		#time.sleep(1)
-		(p,es) = os.waitpid(pid,0)
 		#afficherErreur("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
 
 
@@ -124,7 +123,7 @@ def filtrerRedirectionsErreur(processus):
 
 if __name__ =='__main__':
 	nomPipe="/tmp/pomme"
-	pl=ssp.get_parser().parse("sh imp.sh | wc -c  ")
+	pl=ssp.get_parser().parse("sh imp.sh | cat |wc -c  ")
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		tubesEnchainement.append(os.pipe())
@@ -147,7 +146,8 @@ if __name__ =='__main__':
 
 
 	
-
+	for i in range(len(pl)):
+		(p,es) = os.waitpid(-1,os.WNOHANG)
 
 
 

@@ -7,7 +7,7 @@ void main() {
 
 	while(c != EOF ) {
 		fputc(c,stderr );
-		putchar(c);
+		fputc('z',stdout);
 		c = getchar();
 		i++;
 	}
