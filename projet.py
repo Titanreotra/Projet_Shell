@@ -3,11 +3,13 @@ import lexer as ssp
 
 #  **** fonction pour excuter*****
 
-def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sortiePrec = None):
+
+def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sortiePrec = None, premierFils = False):
 	(rfd,wfd)=os.pipe() # derscrtiteur de lecture et dectiture de pipe
 
 	pid=os.fork() # 
 	if(pid==0): # le fils s'ocuupe de l'excution de la commande
+
 		commande=processus._cmd.getCommand()
 		argCommande=processus._cmd.getArgs()
 		redirEntree=filtrerRedirectionsEntree(processus)
@@ -27,11 +29,10 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 		re_wr_fd=None
 		redirSortie=filtrerRedirectionsSortie(processus) # redirection de la sortie gerer par le pere
-		# print('r')
-		# print(redirSortie)
+		
 		## redirection entre *************
 		if redirSortie:
-			# os.write(2, b'red sortie')
+			
 			if redirSortie.isAppend():
 				re_wr_fd=os.open(redirSortie._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT )
 			else:
@@ -42,15 +43,14 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 			# fin ***********************************
 
-			# os.close(re_wr_fd)
+			
 		elif sortieProcessus != 1:
 			os.close(entreeProcessus)
 
 			afficherErreur('ecrire dans ' + str(sortieProcessus) + ' au lieu de 1 pour ' + processus._cmd.getCommand())
 			os.close(1)
 			os.dup2(sortieProcessus,1)
-			#os.close(sortieProcessus)
-			# os.close(entreeProcessus)
+			
 
 		redirErreur=filtrerRedirectionsErreur(processus)# redirection d'erreur gerer par le fils 
 		re_Er_fd=None
@@ -59,14 +59,9 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY | os.O_APPEND | os.O_CREAT)
 			else:
 				re_Er_fd=os.open(redirErreur._filespec, os.O_WRONLY| os.O_CREAT | os.O_TRUNC)
-			# os.write(2, b'rediriger erreur')
+			
 			os.dup2(re_Er_fd,2)	
 
-		# if sortiePrec:
-		# 	afficherErreur('mmimimi ' +str(sortiePrec))
-
-		
-		#os.dup2(wfd,1)# utiliser wfd au lieu de la sortie standard
 		argCommande=[commande]+ argCommande # pour tt les fonction exec le 1er argCommande doit etre la commande lui meme
 
 		try: # essaye cette commande 
@@ -84,23 +79,16 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 
 							os.execv("./"+commande, argCommande)
 						except OSError as e:
-							fficherErreur("commande echoue")
-							os.write(2,byteaargCommanderray(e.strerror,"utf-8")) # affiche dans la sortie d'erreur standard
+							afficherErreur("commande echoue")
+							afficherErreur(e.strerror)
 		sys.exit(-1)
 				
 			
 	else: # pere 
 		pass
-		#os.close(wfd) # fermeture du cote  ecriture du pipe
-		# os.close(rfd)
-		#afficherErreur("j attends le %d %s\n " %(pid, processus._cmd.getCommand()))
-		#time.sleep(1)
-		#afficherErreur("j'ai fini attendre pour %d qui a %s\n" %(pid,os.WIFEXITED(es)))
+		
 
-
-						
-				
-
+					
 
 def log(msg): # pour voir les erreur sur le code
 	log_fd=os.open("log.txt", os.O_CREAT | os.O_WRONLY | os.O_APPEND )
@@ -122,25 +110,29 @@ def filtrerRedirectionsErreur(processus):
 
 
 if __name__ =='__main__':
-	pl = ssp.get_parser().parse("which tee | more")
-	# pl=ssp.get_parser().parse("ps -aux | sort -k1n   | tr 'a-z' 'A-Z' | tee toto.txt | wc -c")
+	pl = ssp.get_parser().parse("ps -aux | sort -k1n | wc -c ")
+	#pl = ssp.get_parser().parse("ls -al | sort -k1 | tr ‘A-Z’ ‘a-z’")
+	#pl=ssp.get_parser().parse("ps -aux | sort -k1n   | tr 'a-z' 'A-Z' | tee toto.txt | wc -c")
+
+
+
 	tubesEnchainement = []
 	for i in range(len(pl)):
 		tubesEnchainement.append(os.pipe())
 
 
 
+	# afficherErreur(str(pl) + ' ' + str(len(pl)))
 	for i in range(len(pl)):
 		p = pl[i]
-		# print(p)
 
-		if(len(pl) == 0):
-			executerCommandeSimple(p, 0, 1)
+		if(len(pl) == 1):
+			executerCommandeSimple(p, entreeProcessus =0, sortieProcessus= 1)
 
 		elif i == 0:
-			executerCommandeSimple(p, 0, tubesEnchainement[i][1])
+			executerCommandeSimple(p, 0, tubesEnchainement[i][1], premierFils = True)
 		elif i == len(pl)-1:
-			executerCommandeSimple(p, tubesEnchainement[i-1][0], 1, tubesEnchainement[i-1][1])
+			executerCommandeSimple(p, tubesEnchainement[i-1][0], sortieProcessus=1, sortiePrec=tubesEnchainement[i-1][1])
 		else:
 			executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
 
