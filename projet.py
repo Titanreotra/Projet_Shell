@@ -10,6 +10,24 @@ def executerCommandeSimple(processus, entreeProcessus=0, sortieProcessus=1, sort
 	pid=os.fork() # 
 	if(pid==0): # le fils s'ocuupe de l'excution de la commande
 
+		if premierFils:
+			try :
+				afficherErreur('ici')
+				os.setpgid(os.getpid(),0)
+				pgid = os.getpgid(os.getpid())
+				os.tcsetpgrp(0, pgid)
+				afficherErreur('daniel')
+				afficherErreur('pfff'+str(pgid)+'pfff')
+			except OSError as oe:
+				afficherErreur(oe.strerror)
+				
+		else :
+			afficherErreur('p'+str(os.getpgid(os.getpid()))+'p')
+
+
+			os.tcsetpgrp(0, os.getpgid(os.getpid()))
+
+
 		commande=processus._cmd.getCommand()
 		argCommande=processus._cmd.getArgs()
 		redirEntree=filtrerRedirectionsEntree(processus)
