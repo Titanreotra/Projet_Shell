@@ -122,26 +122,34 @@ if __name__ =='__main__':
 
 
 
-	# afficherErreur(str(pl) + ' ' + str(len(pl)))
-	for i in range(len(pl)):
-		p = pl[i]
+	while(True):
+			commmandeStr = 'date'
+			commmandeStr=input(">>")
+			afficherErreur(commmandeStr)
+			if commmandeStr.strip() == '':
+				continue
+			pl = ssp.get_parser().parse(commmandeStr)
 
-		if(len(pl) == 1):
-			executerCommandeSimple(p, entreeProcessus =0, sortieProcessus= 1)
+			# afficherErreur(str(pl) + ' ' + str(len(pl)))
+			for i in range(len(pl)):
+				p = pl[i]
 
-		elif i == 0:
-			executerCommandeSimple(p, 0, tubesEnchainement[i][1], premierFils = True)
-		elif i == len(pl)-1:
-			executerCommandeSimple(p, tubesEnchainement[i-1][0], sortieProcessus=1, sortiePrec=tubesEnchainement[i-1][1])
-		else:
-			executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
+				if(len(pl) == 1):
+					executerCommandeSimple(p, entreeProcessus =0, sortieProcessus= 1)
+
+				elif i == 0:
+					executerCommandeSimple(p, 0, tubesEnchainement[i][1], premierFils = True)
+				elif i == len(pl)-1:
+					executerCommandeSimple(p, tubesEnchainement[i-1][0], sortieProcessus=1, sortiePrec=tubesEnchainement[i-1][1])
+				else:
+					executerCommandeSimple(p, tubesEnchainement[i-1][0], tubesEnchainement[i][1], tubesEnchainement[i-1][1])
 
 
-	afficherErreur("avant fermeture fils")
-	for i in range(len(pl)):
-		(p,es) = os.waitpid(-1,os.WNOHANG)
+			afficherErreur("avant fermeture fils")
+			for i in range(len(pl)):
+				(p,es) = os.waitpid(-1,os.WNOHANG)
 
-	afficherErreur("fin du programe")
+			afficherErreur("fin du programe")
 
 
 
